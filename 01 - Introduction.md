@@ -1,6 +1,8 @@
 # PL-900 Power Platform
 
-***Modern businesses run on data***. Users interact with data daily from entering their time for payroll, seeking guidance on existing processes, and analyzing data to make decisions. In our technology driven world, users can be empowered to gain insights from and interact with data all while automating those menial responsibilities that seem to be more burden than job task. Microsoft Power Platform enables to drive the business with data. Microsoft Power Platform is comprised of ***four key products***: Power Apps, Power Automate, Power BI and Power Virtual Agents.
+***Modern businesses run on data***. Users interact with data daily from entering their time for payroll, seeking guidance on existing processes, and analyzing data to make decisions. In our technology driven world, users can be empowered to gain insights from and interact with data all while automating those menial responsibilities that seem to be more burden than job task. ***Microsoft Power Platform enables to drive the business with data***. 
+
+### Four key products
 
 **Power Apps** provides a rapid low code development environment for building custom apps for business needs. Power Apps enables the creation of web and mobile applications that run on all devices. Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps.
 
@@ -92,7 +94,7 @@ An accessible canvas app will allow users with vision, hearing, and other impair
 
 ## Putting it together
 
-Although we live in a data driven world, it can difficult to ***take advantage of the data*** you have access to. Sales, customer, and employee data should drive our business decisions. Microsoft Power Platform can add value by helping to analyze, act, and automate. 
+Although we live ***in a data driven world***, it can difficult to ***take advantage of the data*** you have access to. Sales, customer, and employee data should drive our business decisions. Microsoft Power Platform can add value by helping to analyze, act, and automate. 
 
 - ***Act*** by building custom apps in ***Power Apps***, 
 - ***Automate*** processes in ***Power Automate***

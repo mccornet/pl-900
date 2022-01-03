@@ -4,9 +4,9 @@ Microsoft Dataverse is a cloud-based, low-code data service and app platform, wh
 
 ## Overview
 
-Microsoft Dataverse is a cloud-based solution that easily structures a variety of data and business logic to support interconnected applications and processes in a secure and compliant manner. Managed and maintained by Microsoft, Dataverse is available globally but deployed geographically to comply with your potential data residency. It is not designed for stand-alone use on your servers, so you will need an internet connection to access and use it.
+Microsoft Dataverse is a cloud-based solution that easily structures a variety of data and business logic to support interconnected applications and processes in a secure and compliant manner. Managed and maintained by Microsoft, ***Dataverse is available globally but deployed geographically*** to comply with your potential data residency. It is ***not designed for stand-alone use*** on your servers, so you will need an internet connection to access and use it.
 
-Dataverse is designed to be your central data repository for business data, and you might even be using it already. It powers many Microsoft Dynamics 365 solutions such as Field Service, Marketing, Customer Service, and Sales. It is also available as part of Power Apps and Power Automate with native connectivity built right in. The AI Builder and Portals features of Microsoft Power Platform also utilize Dataverse.
+Dataverse is designed to be your central data repository for business data. It powers many Microsoft Dynamics 365 solutions such as Field Service, Marketing, Customer Service, and Sales. It is also available as part of Power Apps and Power Automate with native connectivity built right in. The AI Builder and Portals features of Microsoft Power Platform also utilize Dataverse.
 
 ![Dataverse API options](https://docs.microsoft.com/en-us/learn/modules/introduction-common-data-service/media/common-data-service-diagram.png)
 
@@ -16,7 +16,7 @@ Dataverse is designed to be your central data repository for business data, and 
 
 **Data**: Dataverse offers you the control to shape your data, allowing you to discover, model, validate, and report on your data. This control ensures your data looks the way you want regardless of how it is used.
 
-**Storage**: Dataverse stores your physical data in the Azure cloud. This cloud-based storage removes the burden of worrying about where your data lives or how it scales. These concerns are all handled for you.
+**Storage**: Dataverse stores your physical data in the Azure cloud. This cloud-based storage removes the burden of worrying about where your data lives or how it scales. T
 
 **Integration**: Dataverse connects in different ways to support your business needs. APIs, webhooks, eventing, and data exports give you flexibility to get data in and out.
 
