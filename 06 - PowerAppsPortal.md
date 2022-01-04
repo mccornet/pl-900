@@ -121,9 +121,7 @@ A webpage row does not define how the page looks when it is rendered on the port
 
 ### Content snippets
 
-Content snippets are reusable fragments of editable content that can be placed within a web template. Using snippets allows for targeted editing of parts of a page without affecting the overall content.
-
-Content snippets can include plain text, HTML layout, or template processing instructions, which helps enable dynamic content. 
+Content snippets are reusable fragments of editable content that can be placed within a web template. Using snippets allows for targeted editing of parts of a page without affecting the overall content. Content snippets can include plain text, HTML layout, or template processing instructions, which helps enable dynamic content. 
 
 <details>
  <summary>Mobile Header Snippet</summary>
@@ -131,23 +129,20 @@ In the example below, **Mobile Header** is a content snippet that can be updated
 
 ![Title content snippet](https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps-portals/media/content-snippets.png)
 
-</details>
-
 Snippets can be edited by using Portal Studio and Microsoft Dataverse rows by using the Portal Management app. Here is where you would replace the image source in the **Value** column with your company's logo.
 
 ![Edit Title content snippets](https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps-portals/media/edit-title-content-snippet.png)
+
+</details>
+
 
 ### Table lists and table forms
 
 The strength of Power Apps portals is the ability to interact with information and data that is stored in Microsoft Dataverse. Table lists and table forms are used in Power Apps portals to define what data should render on the portal from Microsoft Dataverse, such as a list of rows from a table or a form to capture and display data for a specific row.
 
-![Account entity list](https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps-portals/media/member-directory-entity-list.png)
-
 A webpage row can be linked to a **table list** or an **table form**. The linked list or form will be used by the template to render the page layout with data from Microsoft Dataverse, such as a list of all *Active Contacts* to form the above *Member Directory* list. In the **Properties** pane on the right of the above example, you see that this table list was created to display the *Active Contacts* view from the *contacts* table.
 
 Table lists can include functionality like filtering and sorting and can also have actions associated with them to enable Create/Edit/Read abilities and to trigger workflows. With this, App Makers can determine what will happen when a user opens a row from a list, such as taking them to a form displaying the details of the selected row.
-
-![Configuring entity lists](https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps-portals/media/configure-entity-lists.png)
 
 In the above example, the App Maker has dictated that the user will be taken to the **Table Form** if they want to *create* or view *details* for a specific row from a list.
 
@@ -269,7 +264,6 @@ Portal administrators can choose to enable or disable any combination of authent
 
 After the user is authenticated and associated with a contact, Power Apps portals use numerous tables to define authorization, that is, what a user is allowed to do. Selecting **Share** from the portal app options will provide information on how to share the portal app with internal and external users.
 
-[![Portals security constructs](https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps-portals/media/share-portal.png)](https://docs.microsoft.com/en-us/learn/modules/introduction-power-apps-portals/media/share-portal.png#lightbox)
 
 **Web roles** allow an administrator to control user access to portal content and Microsoft Dataverse rows. A web role can be associated with the following table rows:
 
