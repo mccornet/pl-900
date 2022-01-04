@@ -73,7 +73,7 @@ You can create more than one environment to manage solution development and data
 
 ## Business Rules
 
-In Microsoft Dataverse you can define business rules that allow you to apply and maintain business logic at the data layer instead of the app layer. For example, business rules can be used in canvas and model-driven apps to set or clear values in one or many columns in a table. Or to validate stored data or show error messages. Model-driven apps can use business rules to show or hide columns, enable or disable columns, and create recommendations based on business intelligence.
+In Microsoft Dataverse you can ***define business rules that allow you to apply and maintain business logic at the data layer instead of the app layer***. For example, business rules can be used in canvas and model-driven apps to set or clear values in one or many columns in a table. Or to validate stored data or show error messages. Model-driven apps can use business rules to show or hide columns, enable or disable columns, and create recommendations based on business intelligence.
 
 > **Tip**
 >
