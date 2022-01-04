@@ -48,8 +48,9 @@ The basic Power Apps creator journey will look something like this:
 - Save and publish the app and test functionality
 - Share the app with end users to give them a better business process
 
->### Tutorial
->
+<details>
+ <summary>Tutorial</summary>
+
 >#### Connect to a data source
 >
 >1. Download the [Contoso-Site-Tracking.zip](https://github.com/MicrosoftDocs/mslearn-build-app-solution/raw/master/downloads/Contoso-Site-Tracking.zip) file, extract all of the files, and save them to your OneDrive for Business.
@@ -165,6 +166,7 @@ The basic Power Apps creator journey will look something like this:
 >   <img src="https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-text-edit-options.png" alt="Control text edit options" style="zoom: 50%;" />
 >
 >4. A multi-line edit control will simplify your user's ability to add more than a few words in this field. You could also reorder the fields to match the order from the Details screen to give the user a more consistent experience.
+</details>
 
 ## Controls in Power Apps
 
