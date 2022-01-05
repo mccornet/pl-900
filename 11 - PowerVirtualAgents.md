@@ -1,18 +1,18 @@
 # Power Virtual Agents
 
-Power Virtual Agents can be leveraged to build chatbot solutions.
+Power Virtual Agents are ***adaptable Artificial Intelligence chatbots***. They can ***solve common issues*** with customers and internal-facing issues automatically, freeing up staff to focus on complex requests and high-value interactions. Easily ***created with a guided, no-code graphical interface***. 
 
-Power Virtual Agents are adaptable Artificial Intelligence (AI) chatbots, at your service. They can solve common customer and internal-facing issues automatically, freeing up staff to focus on complex requests and high-value interactions. You can easily create your own virtual agents, powerful chatbots, without the need for developers or data scientists, by using a guided, no-code graphical interface. Integrate Power Virtual Agents with the products and services you use every day using hundreds of prebuilt connectors, by building custom workflows using Power Automate, or creating complex scenarios with Microsoft Bot Framework. Monitor and continuously improve chatbot performance using AI- and data-driven insights available in an easy-to-read dashboard.
+**Integration** is possible with the ***products and services using connectors***. By building ***custom workflows using Power Automate***. Or ***creating complex scenarios with Microsoft Bot Framework***. 
 
-Power Virtual Agents empowers teams to easily create powerful chatbots using a guided, no-code graphical interface without the need for data scientists or developers. Power Virtual Agents addresses many of the major issues with bot building in the industry today. It eliminates the gap between the subject matter experts and the development teams building the bots, and the long latency between teams recognizing an issue and updating the bot to address it. It removes the complexity of exposing teams to the nuances of conversational AI and the need to write complex code. Also, it minimizes the IT effort required to deploy and maintain a custom conversational solution.
+**Monitor** and continuously improve chatbot performance using ***AI- and data-driven insights available in a dashboard***. 
 
-Check out this video for a brief overview of Power Virtual Agents: https://youtu.be/J5i7h4Uzju4
-
-Using Power Virtual Agents, you can:
+Power Virtual Agents:
 
 - **Empower your teams** by allowing them to easily build chatbots themselves without needing intermediaries, coding, or AI expertise.
 - **Reduce costs** by easily automating common inquiries and freeing human agent time to deal with more complex issues.
 - **Improve customer satisfaction** by allowing customers to self-help and resolve issues quickly, 24/7 using rich personalized bot conversations.
+
+It minimizes the IT effort required to deploy and maintain a custom conversational solution. Check out this video for a brief overview of Power Virtual Agents: https://youtu.be/J5i7h4Uzju4
 
 ## Highlights of Power Virtual Agents
 
@@ -31,13 +31,17 @@ Using Power Virtual Agents, you can:
 
 ## Components of Power Virtual Agents
 
-When you create chatbots with Power Virtual Agents, you author and edit topics. Topics are discrete conversation paths that, when used together within a single chatbot, allow for users to have a conversation with a chatbot that feels natural and flows appropriately. Creating a chatbot with Power Virtual Agents is easy to do with the no-code authoring canvas, and there are a number of ways you can manage how topics interact, how you want the conversation to flow, and what it should feel like. It is also easy to test the chatbot without having to fully deploy the chatbot whenever you make a small change. There are also lesson topics that guide you through topic authoring - from simple to complex scenarios, as well as default system topics. You can also choose what language you want your chatbot to use.
+When you create chatbots with Power Virtual Agents, you author and edit topics. Topics are discrete conversation paths that, when used together within a single chatbot, allow for users to have a conversation with a chatbot that feels natural and flows appropriately. 
+
+Creating a chatbot with Power Virtual Agents is easy to do with the no-code authoring canvas, and there are a number of ways you can manage how topics interact, how you want the conversation to flow, and what it should feel like. 
+
+It is also easy to test the chatbot without having to fully deploy the chatbot whenever you make a small change. There are also lesson topics that guide you through topic authoring - from simple to complex scenarios, as well as default system topics. You can also choose what language you want your chatbot to use.
 
 ### Topics
 
-In Power Virtual Agents, a topic defines how a chatbot conversation plays out. You can author topics by customizing provided templates, create new topics from scratch, or get suggestions from existing help sites.
+In Power Virtual Agents, ***a topic defines how a chatbot conversation plays out***. You can author topics by customizing provided templates, create new topics from scratch, or get suggestions from existing help sites.
 
-A topic has trigger phrases—these are phrases, keywords, or questions that a user is likely to type that is related to a specific issue—and conversation nodes—these are what you use to define how a chatbot should respond and what it should do.
+A topic has **trigger phrases**—these are ***phrases, keywords, or questions*** that a user is likely to type that is related to a specific issue—and **conversation nodes**—these are what you use to ***define how a chatbot should respond*** and what it should do.
 
 The AI uses natural language understanding to parse what a customer actually types and find the most appropriate trigger phrase or node.
 
