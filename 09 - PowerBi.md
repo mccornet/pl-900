@@ -231,3 +231,21 @@ It's important to note that users are responsible for the data they share. If a 
 
 Power BI administration is the management of a Power BI tenant, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources.  Power BI is designed for self-service business intelligence. The administrator is the guardian of data, processes, and policies in the Power BI tenant. A Power BI administrator is a key member of a team that includes BI developers, analysts, and other roles. The administrator can help support an organization to make sure that critical goals are met.
 
+## Summary
+
+1. Microsoft Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
+2. Leveraging Power BI and other Microsoft technologies can lead to significant returns in terms of not only revenue, but your business users' ability to make beneficial decisions.
+3. Power BI is built on Azure, Microsoft's cloud computing infrastructure and platform, ensuring your data is secure and only accessible by authenticated users.
+
+## Resources
+
+### Security and administration
+
+- [Security Documentation](https://docs.microsoft.com/en-us/power-bi/service-admin-power-bi-security)
+- [Power BI Security Whitepaper](https://docs.microsoft.com/en-us/power-bi/whitepaper-powerbi-security)
+- [Administration Documentation](https://docs.microsoft.com/en-us/power-bi/service-admin-administering-power-bi-in-your-organization)
+
+### More on Power BI
+
+- [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+
