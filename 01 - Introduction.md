@@ -24,11 +24,11 @@ Among the programs listed above, there are cross cutting features which enable M
 
 ## Data Connectors
 
-Microsoft Power Platform is made powerful by its ability to leverage data across many platforms. To do this, components of Microsoft Power Platform use connectors. 
+***Connectors make it possible to leverage data across many platforms.***
 
 ### Data Sources
 
-In order to understand the types of connectors and what you can do with them, first understand the types of data sources to which they connect. The two types of data sources are ***tabular*** and ***function-based***.
+***The two types of data sources are tabular and function-based***. In order to understand the types of connectors and what you can do with them, first understand the types of data sources to which they connect. 
 
 **Tabular data** - A tabular data source is one that returns data in a ***structured table format***. Power Apps can directly read and display these tables through galleries, forms, and other controls. Additionally, if the data source supports it, Power Apps can create, edit, and delete data from these data sources. Examples include Microsoft Dataverse, SharePoint, and SQL Server.
 
@@ -36,63 +36,61 @@ In order to understand the types of connectors and what you can do with them, fi
 
 ### Connectors
 
-Connectors can ***provide input and output between the data source and Power Platform***, which can accelerate the delivery of Microsoft Power Platform business solutions. Connectors are the ***bridges from your data source to your app, workflow, or dashboard***. Connectors are divided into ***standard*** and ***premium***. Some popular standard connectors are SharePoint, Outlook, and YouTube. Premium connectors require additional licensing for your app and/or users. 
+***Provide input and output between the data source and Power Platform***, which can accelerate the delivery of Microsoft Power Platform business solutions. ***Connectors are the*** ***bridges from your data source to your app, workflow, or dashboard***. 
+
+Connectors are divided into ***standard*** and ***premium***. Some popular standard connectors are SharePoint, Outlook, and YouTube. Premium connectors require additional licensing for your app and/or users. 
 
 #### Custom Connectors
 
-This will allow you to extend your app by calling a publicly available API, or a custom API you are hosting in a cloud provider, such as Azure. Connectors work by sending information back and forth across these APIs and gathering available functions into Power Apps or Power Automate. Because ***these connectors are function-based***, they will call specific functions in the underlying service of the API to return the corresponding data.
+***Allow you to extend your app by calling a publicly available API, or a custom API*** you are hosting in a cloud provider, such as Azure. Connectors work by sending information back and forth across these APIs and gathering available functions into Power Apps or Power Automate. Because ***these connectors are function-based***, they will call specific functions in the underlying service of the API to return the corresponding data.
 
-Create custom connectors using 3 different approaches:
+Create custom connectors using 3 different approaches: ***they require a Power Apps per app or per user plan***. 
 
 - [Using a blank custom connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank)
 - [From an OpenAPI definition](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-openapi-definition)
 - [From a Postman collection](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-postman-collection)
 
-While the requirements for each approach will vary, ***they all require a Power Apps per app or per user plan***. 
-
 ### Triggers and Actions
 
 Once you have established a data source and configured your connector, there are two types of operations you can use, triggers or actions.
 
-**Triggers** are ***only used in Power Automate*** and prompt a flow to begin. Triggers can be time based, such as a flow which begins every day at 8:00 am, or they could be based off of an action like creating a new row in a table or receiving an email. You will always need a trigger to tell your workflow when to run.
+***Triggers are used in Power Automate and prompt a flow to begin***. Triggers can be time based, such as a flow which begins every day at 8:00 am, or they could be based off of an action like creating a new row in a table or receiving an email. You will always need a trigger to tell your workflow when to run.
 
-**Actions** are used in ***Power Automate and Power Apps***. Actions are ***prompted by the user or a trigger*** and allow interaction with your data source by some function. 
-
-
+***Actions are in Automate and Apps; by the user or a trigger*** ***and allow interaction with a data source by some function.*** 
 
 ## DLP, Compliance, Privacy, Accessibility
 
 ### Data loss prevention policies
 
-Data is likely one of the most important assets you are responsible for safeguarding as an administrator. Power Apps and Power Automate allow for rapid build and rollout of these high-value apps so that users can measure and act on the data in real time. 
+***Data is likely one of the most important assets you are responsible for safeguarding as an administrator***. Power Apps and Power Automate allow for rapid build and rollout of these high-value apps so that users can measure and act on the data in real time. 
 
-Create data loss prevention (DLP) policies that can act as guardrails to help prevent users from unintentionally exposing organizational data. ***DLP policies can be scoped at the environment level or tenant level***, offering flexibility to craft sensible policies that strike the right balance between protection and productivity. To create a DLP policy, you need to be a tenant admin or have the Environment Admin role.
+***Create data loss prevention (DLP) policies that can act as guardrails to help prevent users from unintentionally exposing organizational data.*** ***DLP policies can be scoped at the environment level or tenant level***, offering flexibility to craft sensible policies that strike the right balance between protection and productivity. To create a DLP policy, you need to be a tenant admin or have the Environment Admin role.
 
 For tenant-level policies, you can define the scope to be all environments, selected environments, or all environments except ones you specifically exclude.
 
-Connectors can be classified as either **Business** or **Non-Business** in the context of your organization. Connectors that host business-use data should be classified as **Business** and connectors that host personal-use data should be classified as **Non-Business**. Any connectors that you want to restrict usage of across one or more environments should be classified as **Blocked**. When a new policy is created, all connectors are defaulted to the **Non-Business** group. 
+***Connectors can be classified***: **Business** or **Non-Business** in the context of your organization. ***Connectors that host business-use data should be classified as* Business** and connectors that ***host personal-use data should be classified as*** **Non-Business**. Any connectors that you want ***to restrict usage of across one or more environments connectors should be classified as*** **Blocked**. When a new policy is created, ***all connectors are defaulted to*** **Non-Business** group. 
 
 ### Compliance and data privacy
 
-Microsoft’s broad suite of cloud products and services are all built from the ground up to address the most rigorous security and privacy demands of our customers.
+***Microsoft’s broad suite of cloud products and services are all built to address the most rigorous security and privacy demands.*** 
 
-To help your organization comply with national, regional, and industry-specific requirements governing the collection and use of individuals’ data, Microsoft provides the most comprehensive set of compliance offerings (including certifications and attestations) of any cloud service provider. There are also tools for administrators to support your organization’s efforts. 
+***Microsoft provides the most comprehensive set of compliance offerings to help comply with national, regional, and industry-specific requirements governing the collection and use of individuals’ data.*** Microsoft provides the most comprehensive set of compliance offerings (including certifications and attestations) of any cloud service provider. There are also tools for administrators to support your organization’s efforts. 
 
 #### Data Protection
 
-Data as it is in transit between user devices and the Microsoft datacenters are secured. Connections established between customers and Microsoft datacenters are encrypted, and all public endpoints are secured using industry-standard TLS. API access from the customer endpoint to the server is also similarly protected. Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
+***Data in transit is secured using industry-standard TLS***. API access from the customer endpoint to the server is also similarly protected. Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
 
 #### GDPR compliance
 
-The European Union General Data Protection Regulation (GDPR) is one of the newest privacy regulations enacted that gives rights to people to manage their personal data. Microsoft Power Platform does fully support the GDPR. 
+The European Union General Data Protection Regulation (GDPR) is one of the newest privacy regulations enacted that gives rights to people to manage their personal data. ***Microsoft Power Platform does fully support the GDPR.*** 
 
 #### Accessibility
 
-An accessible canvas app will allow users with vision, hearing, and other impairments to successfully use the app. In addition to being a requirement for many governments and organizations, following the below guidelines increases usability for all users, regardless of their abilities. 
+***An accessible canvas app will allow users with vision, hearing, and other impairments to successfully use the app***. In addition to being a requirement for many governments and organizations, following the below guidelines increases usability for all users, regardless of their abilities. 
 
 ## Putting it together
 
-Although we live ***in a data driven world***, it can difficult to ***take advantage of the data*** you have access to. Sales, customer, and employee data should drive our business decisions. Microsoft Power Platform can add value by helping to analyze, act, and automate. 
+***We live in a data driven world, so take advantage of the data*** you have access to. Sales, customer, and employee data should drive our business decisions. Microsoft Power Platform can add value by helping to analyze, act, and automate. 
 
 - ***Act*** by building custom apps in ***Power Apps***, 
 - ***Automate*** processes in ***Power Automate***
