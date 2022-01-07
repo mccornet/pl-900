@@ -1,6 +1,6 @@
 # PL-900 Canvas Apps
 
-Canvas apps are used to make Mobile or Tablet focused applications. 
+***Canvas apps are used to make Mobile or Tablet focused applications.*** 
 
 ## Basic Elements
 
@@ -16,11 +16,11 @@ Below is a list of the basic elements and terminology used.
 
 - **Galleries**
 
-  The Gallery control is used to ***display rows from a table of data***. The display of a row is then ***defined by a customizable template***, to meet your needs. Power Apps will then apply this template automatically to every row in your data.
+  ***The Gallery control is used to*** ***display rows from a table of data***. The display of a row is then ***defined by a customizable template***, to meet your needs. Power Apps will then apply this template automatically to every row in your data.
 
 - **Forms**
 
-  Focused on ***working with a specific record***, often based on a selection from a gallery. In this experience, a user browses a gallery to find and select the desired row to view the details on the form. Forms enable a user to ***view detailed information, save new records and edit existing ones***. The various ***actions performed with forms are controlled by form modes*** allowing the form to serve many purposes.
+  ***Focused on*** ***working with a specific record***, often based on a selection from a gallery. In this experience, a user browses a gallery to find and select the desired row to view the details on the form. Forms enable a user to ***view detailed information, save new records and edit existing ones***. The various ***actions performed with forms are controlled by form modes*** allowing the form to serve many purposes.
 
 - **Input Controls**
 
@@ -36,7 +36,7 @@ Below is a list of the basic elements and terminology used.
 
 - **Functions**
 
-  Functions are the glue that ***binds all these controls, inputs, and data sources together***. Functions can be used to create formulas in your apps. The ***language is similar to Excel and can be used for actions*** such as sending data to a data source, formatting information, creating animations, and more.
+  ***Functions are the glue that*** ***binds all these controls, inputs, and data sources together***. Functions can be used to create formulas in your apps. The ***language is similar to Excel and can be used for actions*** such as sending data to a data source, formatting information, creating animations, and more.
 
 ## Build the App
 
