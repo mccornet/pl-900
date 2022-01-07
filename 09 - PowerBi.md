@@ -76,11 +76,10 @@ The business world is increasingly data driven. Small and large businesses alike
 
 ***The new Power BI template apps enable Power BI partners to build Power BI apps with little or no coding and deploy / publish them to any Power BI customer.*** As a Power BI partner, you create a set of out-of-the-box content for your customers and publish it yourself. You can build template apps that allow your customers to connect within their own accounts. As domain experts, they can unlock the data in a way that is easy for their business users to consume. ***Template apps are submitted to the Partner center to become publicly available in the [Power BI Apps marketplace](https://app.powerbi.com/getdata/services) and on [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi).*** 
 
-
-
-Install a template app
-
 ------
+
+<details>
+<summary>Install a template app</summary>
 
 1. In the nav pane in the Power BI service, select **Apps** > **Get apps**.
 
@@ -108,9 +107,18 @@ When the installation finishes successfully, a notification tells you that your 
 
 ![Go to app](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/go-to-app.png)
 
+</details>
+
+------
+
 ## Data modeling and visualizations
 
-When you launch Power BI Desktop, the **Getting Started** dialog box will appear, which provides useful links to forums, blogs, and introductory videos.
+After launching Power BI Desktop, the **Getting Started** dialog box will appear, which provides useful links to forums, blogs, and introductory videos. 
+
+------
+
+<details>
+<summary>Power BI Desktop Interface</summary>
 
 In Power BI Desktop, you will begin to build reports in the **Report** view. You will be working in five main areas:
 
@@ -123,6 +131,10 @@ In Power BI Desktop, you will begin to build reports in the **Report** view. You
 3. **Pages tab** - Located along the bottom of the page, this area is where you would select or add a report page.
 4. **Visualizations pane** - Where you can change visualizations, customize colors or axes, apply filters, drag fields, and more.
 5. **Fields pane** - Where query elements and filters can be dragged onto the **Report** view or dragged to the **Filters** area of the Visualizations pane.
+
+</details>
+
+------
 
 ### Visualizations in Power BI
 
