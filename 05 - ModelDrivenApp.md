@@ -84,11 +84,11 @@ In canvas apps, the app maker has total control over the app layout. In model-dr
 >- **Charts** - Showing the data in a meaningful, visual representation
 >- **Dashboards** – Providing an insightful, graphical overview of the data
 >
->[<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/fundraiser-app-designer.png" alt="Model driven app layout in studio." style="zoom: 50%;" />](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/fundraiser-app-designer.png#lightbox)
+>[<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/fundraiser-app-designer.png" alt="Model driven app layout in studio." width="500px" />](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/fundraiser-app-designer.png#lightbox)
 >
 >By selecting the Play button in the top right, the app is put into **Play mode**. You can see it then looks completely different and shows the data based on the choices made in the design process.
 >
->[<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-play-mode.png" alt="Model driven app in play mode." style="zoom:50%;" />>](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-play-mode.png#lightbox)
+>[<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-play-mode.png" alt="Model driven app in play mode." width="500px" />>](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-play-mode.png#lightbox)
 
 </details>
 
@@ -116,11 +116,11 @@ These questions are important when designing a model-driven application because 
 
 >You can view the app metadata by reviewing the Table in Microsoft Dataverse.
 >
->[![Example of metadata.](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-metadata.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-metadata.png#lightbox)
+>[<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-metadata.png" alt="Example of metadata." width="500px"/>](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-metadata.png#lightbox)
 >
 >You can also view the app **Play mode** to see a preview of what the app will look like.
 >
->[![Example of app in play mode.](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-play-mode.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-play-mode.png#lightbox)
+>[<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-play-mode.png" alt="Example of app in play mode." width="500px"/>](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/entity-play-mode.png#lightbox)
 >
 >In the example above, for the Fundraiser table, there are several pieces of data being collected, such as: Name, Fundraiser, Goal, Owner, Total Donations, Created On
 </details>
@@ -160,7 +160,7 @@ In this unit, you will create a model-driven app by using one of the standard en
 
  4. Select **Classic App Designer** and click **Create**.
 
-   ![Model-driven](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/model-driven-app-from-blank.png)
+   <img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/model-driven-app-from-blank.png" alt="Model-driven" width="250x"/>
 
  5. On the **Create a New App** page, enter a name and description for the app.
 
@@ -172,7 +172,7 @@ In this unit, you will create a model-driven app by using one of the standard en
 
  1. Select the **Open the Site Map Designer** pencil icon to open the site map designer.
 
-   [![Create a new site map](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-configuration.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-configuration.png#lightbox)
+   [<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-configuration.png" alt="Create a new site map" width="500px" />](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-configuration.png#lightbox)
 
  2. In the site map designer, select **New Subarea**, and then, in the right pane on the **Properties** tab, select the following properties:
 
@@ -180,13 +180,13 @@ In this unit, you will create a model-driven app by using one of the standard en
 
    - **Entity**: *Account*
 
-     [![Add components to the site map](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/sitemap-designer.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/sitemap-designer.png#lightbox)
+     [<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/sitemap-designer.png" alt="Add components to the site map" style="zoom:50%;" />](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/sitemap-designer.png#lightbox)
 
  3. Select **Save And Close**.
 
  4. In the App Designer, select **Forms**, and then, in the right pane under **Main Forms**, select the **Account** form.
 
-   ![Account main form](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-forms.png)
+   <img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-forms.png" alt="Account main form" width="250px" />
 
  5. In the App Designer, select **Views**, then select the following properties:
 
@@ -225,7 +225,7 @@ In this unit, you will create a model-driven app by using one of the standard en
 
    - In this example, we have selected **Views** from the **Account** table.
 
-   [![Account views](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-add-view.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-add-view.png#lightbox)
+   [<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-add-view.png" alt="Account views" width="500px" />](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-add-view.png#lightbox)
 
  2. To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
 
@@ -243,7 +243,7 @@ In this unit, you will create a model-driven app by using one of the standard en
 
  2. On the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
 
-   ![Column Attributes](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/column-attributes.png)
+   <img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/column-attributes.png" alt="Column Attributes" width="300px" />
 
  3. From the list, select the column you want and drag it to the column heading. You can also add the column by double-clicking it.
 
@@ -261,7 +261,7 @@ In this unit, you will create a model-driven app by using one of the standard en
 
  If the sample data for your accounts does not have an Industry populated, go into a few accounts and add an Industry. Once you have updated a few accounts with an industry, the chart will update as well.
 
- [![Simple account entity app](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-charts.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-charts.png#lightbox)
+ [<img src="https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-charts.png" alt="Simple account entity app" width="500px" />](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-charts.png#lightbox)
 
 </details>
 

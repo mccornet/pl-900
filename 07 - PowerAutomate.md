@@ -21,11 +21,11 @@ Approvals are a great process to build in Power Automate. They are often defined
 
 The flow can be built to evaluate the request and then route the request based on criteria such as submitting user and request amount. The first action could be to send the request to the user's manager. The manager could be automatically retrieved from Azure AD, avoiding prompting for duplicate information.
 
-Here is the starting point of the flow: ![Flow edit form](https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/media/starting-point.png)
+Here is the starting point of the flow: <img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/media/starting-point.png" alt="Flow edit form" width="500px" />
 
 After the manager receives the approval and approves, the flow can then provide conditional logic. Typically, this might be something like: if the purchase order request is greater than $10,000, send it to VP; if not, then automatically approve the purchase order.
 
-Here is an example of what this flow may look like. ![flowchart logic for support emails](https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/media/flow-example.png)
+Here is an example of what this flow may look like. <img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-automate/media/flow-example.png" alt="flowchart logic for support emails" width="500px" />
 
 As you can see, even the business process has many decision points. The flow easily handles the decisions without you writing any code.
 </details>

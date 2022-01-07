@@ -10,7 +10,7 @@ The business world is increasingly data driven. Small and large businesses alike
 
 ***Microsoft Power BI is a collection of software services, apps, and connectors that work together to*** ***turn your unrelated sources of data into coherent, visually immersive, and interactive insights.*** Power BI lets you easily connect to your data sources, clean, and model your data without affecting the underlying source, visualize (or discover) what's important, and share that with anyone or everyone you want.
 
-![Different sources of data can be showcased in one place](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/pbi-intro-01.png)
+<img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/pbi-intro-01.png" alt="Different sources of data can be showcased in one place" width="500px" />
 
 **Power BI consists of:**
 
@@ -83,19 +83,19 @@ The business world is increasingly data driven. Small and large businesses alike
 
 1. In the nav pane in the Power BI service, select **Apps** > **Get apps**.
 
-   ![Get Apps button](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/get-apps-button.png)
+   <img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/get-apps-button.png" alt="Get Apps button" width="500px" />
 
 2. In the Power BI apps marketplace that appears, select **Template apps**. All the template apps available in AppSource will be shown. Browse to find the template app you're looking for, or get a filtered selection by using the search box.
 
-   ![Search in AppSource](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/search-appsource.png)
+   <img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/search-appsource.png" alt="Search in AppSource" width="500px" />
 
 3. When you find the template app you're looking for, click it. The template app offer will display. Click **GET IT NOW**.
 
-   ![Template app offer](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/template-app-offer.png)
+   <img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/template-app-offer.png" alt="Template app offer" width="500px" />
 
 4. In the dialog box that appears, select **Install**.
 
-   ![Install app](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/install-app.png)
+   <img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/install-app.png" alt="Install app" width="500px"/>
 
 The app is installed, along with a workspace of the same name that has all the artifacts needed for further [customization](https://docs.microsoft.com/en-us/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app).
 
@@ -105,7 +105,7 @@ The app is installed, along with a workspace of the same name that has all the a
 
 When the installation finishes successfully, a notification tells you that your new app is ready.
 
-![Go to app](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/go-to-app.png)
+<img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/go-to-app.png" alt="Go to app" width="250px" />
 
 </details>
 
@@ -122,7 +122,7 @@ After launching Power BI Desktop, the **Getting Started** dialog box will appear
 
 In Power BI Desktop, you will begin to build reports in the **Report** view. You will be working in five main areas:
 
-![The five areas of Report view.](https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/power-bi-layout.png)
+<img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/power-bi-layout.png" alt="The five areas of Report view." width="500px" />
 
 1. **Ribbon** - Displays common tasks that are associated with reports and visualizations.
 2. **Report view, or canvas** - Where visualizations are created and arranged.
