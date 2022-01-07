@@ -1,12 +1,12 @@
 # PL-900 Model Driven App
 
-Model-driven app design is a ***component-focused approach to app development that focuses on adding dashboards, forms, views, and charts*** to your apps. Model-driven app design does not require code, and the apps you make can be simple or very complex. 
+***Model-driven app design is a*** ***component-focused approach to app development that focuses on adding dashboards, forms, views, and charts*** to your apps. Model-driven app design does not require code, and the apps you make can be simple or very complex. 
 
 In canvas apps, the app maker has total control over the app layout. In model-driven apps, on the other hand, ***much of the layout is determined by the components you add***. The emphasis is more on quickly viewing your business data and making decisions instead of on intricate app design.
 
 ## Making model-driven apps
 
-Model-driven apps have ***three design phases***:
+**Three design phases**:
 
 1. Model your business data
 2. Define your business processes
@@ -14,7 +14,7 @@ Model-driven apps have ***three design phases***:
 
 ### 1. Model your business data
 
-Model-driven design uses metadata-driven architecture so that designers can customize apps without writing code. To model business data, ***determine what data the app will need and how that data will relate to other data***. Metadata means *data about data* and defines the structure of the data stored in Microsoft Dataverse.
+***To model business data,*** ***determine what data the app will need and how that data will relate to other data***. Model-driven design uses metadata-driven architecture so that designers can customize apps without writing code. Metadata means *data about data* and defines the structure of the data stored in Microsoft Dataverse.
 
 ### 2. Define your business processes
 
@@ -22,15 +22,15 @@ Model-driven design uses metadata-driven architecture so that designers can cust
 
 ### 3. Build the app
 
-After modeling data and defining processes, ***the app is build by selecting and setting up the components in the App Designer***.
+***After modeling data and defining processes,*** ***the app is build by selecting and setting up the components in the App Designer***.
 
 ## Building blocks of model-driven apps
 
-A model-driven app consists of several components that you select by using the App Designer. The components and component properties become the metadata. Let's look more closely at these components.
+***A model-driven app consists of several components selected in the App Designer***. The components and component properties become the metadata. Let's look more closely at these components.
 
 ### Data
 
-There are different data components which can determine what data the app will be based upon. These components are all ***created or edited using the Table designer***.
+***There are different data components which can determine what data the app will be based upon***. These components are all ***created or edited using the Table designer***.
 
 - **Tables**: ***items with properties that you track***. Examples include contacts and accounts. Many standard tables are available. Or create a custom table from scratch.
 - **Columns:** are ***properties that are associated with a table*** and help define that table. A column is defined by a data type, which determines the type of data that can be entered or selected. 
@@ -39,16 +39,16 @@ There are different data components which can determine what data the app will b
 
 ### User interface
 
-The table below shows the user interface components which determine how users will interact with the app.
+***UI components determine interaction with the app***
 
-- **App** determine the app fundamentals, like components, properties, the client type,  URL. ***App designer***
-- **Site map** specifies the navigation for your app. ***Site map designer***
+- **App** determine the ***app fundamentals***, like components, properties, the client type,  URL. ***App designer***
+- **Site map** specifies the ***navigation*** for your app. ***Site map designer***
 - **Forms** include a set of data entry columns for a given table. Can be ***used to create or edit an existing data row***. ***Form Designer***
 - **View** define ***how a list of rows for a specific table appears in your app***. A view defines the columns shown, the width of each column, the sorting behavior, and the default filters. ***View Designer***
 
 ### Logic Components
 
-The logic components ***determine what business processes, rules, and automation*** the app will have. These ***all use a specific designer*** for each type of process or rule.
+***The logic components*** ***determine the business processes, rules, and automation*** the app will have. These ***all use a specific designer*** for each type of process or rule.
 
 - **Business process flows** walk users through ***a standard business process***. Use a business process flow if you want everyone to handle customer service requests the same way. Made with ***Business process flow designer***
 - **Workflows** automate business processes without a user interface. Designers ***use workflows to initiate automation that does not require interaction***. Made with ***Workflow designer***
@@ -58,7 +58,7 @@ The logic components ***determine what business processes, rules, and automation
 
 ### Visualization Components
 
-The visualization components ***determine what type of data and reporting the app will show and have available*** 
+***These determine what type of data and reporting the app will show and have available*** 
 
 - **Charts** are ***individual graphical visualizations*** that can appear in a view or a form or that can be added to a dashboard. Made with ***Chart designer***
 
@@ -70,7 +70,9 @@ The visualization components ***determine what type of data and reporting the ap
 
 ## Design of model-driven apps
 
-The ***primary design goal is to get the data model in order***. With that in place, ***connect Power Apps, and a model-driven app will be created*** for you from that model. ***Created with App Designer, choose the components to include*** in the app like entities, dashboards, business process flows, forms, and others; and ***then the app will be created for you***. This means you will need to ***spend more time understanding what your user needs than how it is going to look***.
+***The*** ***primary design goal is to get the data model in order***. With that in place, ***connect Power Apps, and a model-driven app will be created*** for you from that model. ***Created with App Designer, choose the components to include*** in the app like entities, dashboards, business process flows, forms, and others; and ***then the app will be created for you***. This means you will need to ***spend more time understanding what your user needs than how it is going to look***.
+
+-----
 
 <details>
  <summary>App Designer Example</summary>
@@ -90,6 +92,8 @@ The ***primary design goal is to get the data model in order***. With that in pl
 
 </details>
 
+-----
+
 ### Data model
 
 ***During the modelling process there are several things to consider***.
@@ -99,12 +103,13 @@ The ***primary design goal is to get the data model in order***. With that in pl
 
 These questions are important when designing a model-driven application because of how model-driven applications function. Remember, ***model-driven applications use a metadata-driven architecture***. This means ***a large portion of the model-driven app is based on how the data is modeled***, and there is no need to write custom code to alter the app design.
 
-When ***considering the data model, also consider data types***. When adding columns to a table in Microsoft Dataverse, ***the data type will determine how users enter and view that*** in your model-driven app. Choices show as dropdowns, currency shows with currency symbols, while decimal numbers don’t. These little changes in the table can have a profound effect on how your user experiences your app.
+***When*** ***considering the data model, also consider data types***. When adding columns to a table in Microsoft Dataverse, ***the data type will determine how users enter and view that*** in your model-driven app. Choices show as dropdowns, currency shows with currency symbols, while decimal numbers don’t. These little changes in the table can have a profound effect on how your user experiences your app.
 
 > **Important**
 >
 > If a column needs to be changed to a different data type, (i.e. text column to a choice column), then you will need to delete that column and recreate with the correct data type. This will cause you to lose any data associated with that column.
 
+-----
 
 <details>
  <summary>Metadata Visual Example</summary>
@@ -120,9 +125,11 @@ When ***considering the data model, also consider data types***. When adding col
 >In the example above, for the Fundraiser table, there are several pieces of data being collected, such as: Name, Fundraiser, Goal, Owner, Total Donations, Created On
 </details>
 
+-----
+
 ### Business Logic
 
-When incorporating business logic in your app, there are ***two primary options*** available. You can set **Business Rules** on your Microsoft Dataverse tables or you can build **Business Process Flows**.
+***When incorporating business logic in your app, there are two primary options*** available. You can set **Business Rules** on your Microsoft Dataverse tables or you can build **Business Process Flows**.
 
 **Business Rules,** you will ***define behaviors at the data layer***. This is great for setting conditions for when a field is required, setting a default value, or even showing or hiding a field based on criteria. An example could be a table for tracking expenses. You could have a column for type of travel and then build a business rule that dictates that if a user chooses automobile then the mileage field is required, else it is optional. This gives you the power to make sure you maintain data consistency in all scenarios.
 
@@ -130,7 +137,7 @@ When incorporating business logic in your app, there are ***two primary options*
 
 ### Dashboards
 
-As a common output need for apps is ***to visualize the data; use dashboards with custom filters and visual graphics to tie all this data together*** right in your app. When creating your dashboards, make sure they are simple for your users to consume without overwhelming them with all the data. Provide high-level snapshots of your data and allow them to use filters to dive deeper into the data if needed.
+***A common output*** ***to visualize the data; use dashboards with custom filters and visual graphics to tie data together*** right in your app. When creating your dashboards, make sure they are simple for your users to consume without overwhelming them with all the data. Provide high-level snapshots of your data and allow them to use filters to dive deeper into the data if needed.
 
 ### Additional third-party solutions and app accelerators
 
@@ -140,57 +147,59 @@ It is also important to know about the different App accelerators and third-part
 
 In this unit, you will create a model-driven app by using one of the standard entities that is available in your Microsoft Power Apps environment.
 
+-----
+
 <details>
- <summary>Tutorial</summary>
- 
+ <summary>Tutorial to Create a Model-Driven App</summary>
+
  1. Sign in to [Power Apps](https://make.powerapps.com/) by using your organizational account.
- 
+
  2. Select the environment you want, or go to the [Power Apps admin center](https://admin.powerapps.com/) to create a new one.
- 
+
  3. On the **Home** page, select **Model-driven app from blank**.
- 
+
  4. Select **Classic App Designer** and click **Create**.
- 
+
    ![Model-driven](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/model-driven-app-from-blank.png)
- 
+
  5. On the **Create a New App** page, enter a name and description for the app.
- 
+
  6. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
- 
+
  ### Add components to your app
- 
+
  You add components to your app by using the App Designer.
- 
+
  1. Select the **Open the Site Map Designer** pencil icon to open the site map designer.
- 
+
    [![Create a new site map](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-configuration.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-configuration.png#lightbox)
- 
+
  2. In the site map designer, select **New Subarea**, and then, in the right pane on the **Properties** tab, select the following properties:
- 
+
    - **Type**: *Entity*
- 
+
    - **Entity**: *Account*
- 
+
      [![Add components to the site map](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/sitemap-designer.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/sitemap-designer.png#lightbox)
- 
+
  3. Select **Save And Close**.
- 
+
  4. In the App Designer, select **Forms**, and then, in the right pane under **Main Forms**, select the **Account** form.
- 
+
    ![Account main form](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-forms.png)
- 
+
  5. In the App Designer, select **Views**, then select the following properties:
- 
+
    - Active Accounts
    - All Accounts
    - My Active Accounts
- 
+
  6. In the App Designer, select **Charts**, then select the **Accounts by Industry** chart.
- 
+
  7. On the App Designer toolbar, select **Save And Close**.
- 
+
  ### Create a form
- 
+
  1. On the left navigation pane, expand **Dataverse**, and then select **Tables**.
  2. Select a table, such as the account table, and then select the **Forms** tab.
  3. Select **Add form**, and then select one of the following
@@ -198,74 +207,75 @@ In this unit, you will create a model-driven app by using one of the standard en
    - **Quick create form**
    - **Quick view form**
  4. When you are done making changes to the form, select **Save** to save the form.
- 
+
  ### Edit a form
- 
+
  1. On the left navigation pane, expand **Dataverse**, and then select **Tables**.
  2. Select a table, such as the account table, and then select the **Forms** tab.
  3. Select the form name that you want to edit.
    - You can also select the row for a form, and then in the command bar, select **Edit form**
    - Another alternative is to select **...** next to the form name, and then in the menu, select **Edit form**.
  4. When you are done making changes to the form, select **Save** to save the form.
- 
+
  ### Open and add a view in the app designer
- 
+
  The following steps explain how to open and add a view in the app designer.
- 
+
  1. In the app designer **Entity View** section, select **Views**.
- 
+
    - In this example, we have selected **Views** from the **Account** table.
- 
+
    [![Account views](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-add-view.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/app-designer-add-view.png#lightbox)
- 
+
  2. To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
- 
+
  >   Note
  >
  >  Views are displayed based on the table that you have selected. For example, when you select Account, views that are related to the Account table are displayed.
- 
+
  For more information about the app designer visit [Design custom business apps by using the app designer](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
- 
+
  ### Add a column to your view in app designer
- 
+
  Views display rows and columns in a table. Each row is a record with columns you add to the view.
- 
+
  1. In app designer, select the entity view that you want and then on the right pane next to the view that you want select edit (pencil button).
- 
+
  2. On the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
- 
+
    ![Column Attributes](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/column-attributes.png)
- 
+
  3. From the list, select the column you want and drag it to the column heading. You can also add the column by double-clicking it.
- 
+
  4. Repeat step 3 until you have added all the columns you want to display in your view.
- 
+
  As you add columns, you can drag them to any position among existing column headings. You can also move columns around after you add them to your view.
- 
+
  For more detailed options on creating and editing views visit [https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views-app-designer](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-views-app-designer)
- 
- 
+
+
  ### Publish your app
  On the App Designer toolbar, select **Publish**. After you publish the app, it is ready for you to run or share with others.
- 
+
  Above My Active Accounts, select **Show Chart**.
- 
+
  If the sample data for your accounts does not have an Industry populated, go into a few accounts and add an Industry. Once you have updated a few accounts with an industry, the chart will update as well.
- 
+
  [![Simple account entity app](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-charts.png)](https://docs.microsoft.com/en-us/learn/modules/how-build-model-driven-app/media/account-charts.png#lightbox)
 
 </details>
 
+-----
 
 ## Controlling Security & Sharing
 
-Microsoft Power Apps use ***role-based security for sharing***. A security role includes privileges that define a set of actions that can be performed in the app. ***All app users must be assigned at least one security role***; from one or more predefined or custom security roles. ***Roles can be assigned to individual users or to teams***. When a user or a team is assigned to a role, that user or all members of that team are granted the set of privileges associated with the role.
+***Power Apps use role-based security for sharing***. A security role includes privileges that define a set of actions that can be performed in the app. ***All app users must be assigned at least one security role***; from one or more predefined or custom security roles. ***Roles can be assigned to individual users or to teams***. When a user or a team is assigned to a role, that user or all members of that team are granted the set of privileges associated with the role.
 
 ***To share an app, you must have the Environment Admin or System Admin role.***
 
 ### Create or set up a security role
 
-The Power Apps environment ***includes predefined security roles***. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that is required to use the app. Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user's view of data and interactions with that data. ***One or more security roles must be assigned to the app***. The ***apps that users can use depend on the security roles*** they are assigned to. 
+***Power Apps environments include predefined security roles***. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that is required to use the app. Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user's view of data and interactions with that data. ***One or more security roles must be assigned to the app***. The ***apps that users can use depend on the security roles*** they are assigned to. 
 
 If an ***app is based on a custom table***. Because the table is custom, ***privileges must be explicitly specified*** before users can work in it. To do this, you can use either of the following approaches:
 
@@ -274,7 +284,7 @@ If an ***app is based on a custom table***. Because the table is custom, ***priv
 
 ### Predefined Roles
 
-The following predefined roles are available with a Power Apps environment. Unless otherwise noted, all the privileges have global scope.
+***The following predefined roles are available with a Power Apps environment. Unless otherwise noted, all the privileges have global scope.***
 
 - **Environment Maker**
 
@@ -312,7 +322,15 @@ The following predefined roles are available with a Power Apps environment. Unle
 >
 > Unlike sharing canvas apps, sharing model-driven apps does not currently send an email with a link to the app.
 
-Sharing a model-driven app involves ***two primary steps. First, associate one or more security role(s) with the app, then assign the security role(s) to users.***
+***Sharing a model-driven app involves two primary steps:***
+
+1. associate one or more security role(s) with the app
+2. assign the security role(s) to users.
+
+------
+
+<details>
+<summary>Steps to Share an App</summary>
 
 1. Select a model-driven app and click **Share**.
 
@@ -332,3 +350,4 @@ Sharing a model-driven app involves ***two primary steps. First, associate one o
 
 9. Paste the app URL in a location so that your users can access it, such as by posting it on a SharePoint site or sending via email.
 
+<details>
