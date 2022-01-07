@@ -350,4 +350,4 @@ If an ***app is based on a custom table***. Because the table is custom, ***priv
 
 9. Paste the app URL in a location so that your users can access it, such as by posting it on a SharePoint site or sending via email.
 
-<details>
+</details>
