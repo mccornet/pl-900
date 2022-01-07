@@ -22,9 +22,9 @@ The business world is increasingly data driven. Small and large businesses alike
 
 ## Power BI concepts
 
-The major building blocks of are: ***datasets, reports,* and *dashboards***. 
+***The major building blocks of are: datasets, reports, and dashboards.*** 
 
-They are all organized into ***workspaces*, and created on *capacities***.
+***They are all organized into workspaces, and created on capacities.***
 
 ### Capacities
 
@@ -34,7 +34,7 @@ They are all organized into ***workspaces*, and created on *capacities***.
 
 ***Workspaces are containers for dashboards, reports, datasets, and dataflows in Power BI***. 
 
-There are two types:
+#### Two types:
 
 - **My workspace** is the ***personal workspace for any Power BI customer to work with their own content***. Only you have access to your My workspace. You can share dashboards and reports from your My Workspace. If you want to collaborate on dashboards and reports, or create an app, then you want to work in a workspace.
 - **Workspaces** are ***used to collaborate and share content with colleagues***. You can add colleagues to your workspaces and collaborate on dashboards, reports, and datasets. With one exception, all workspace members need Power BI Pro licenses.
@@ -158,7 +158,7 @@ Below are just some of the many different types of visualizations that can be ad
 
 #### Custom visuals - AppSource
 
-Microsoft and community members contribute Power BI visuals for public benefit, and publish them to the [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). You can download these visuals and add them to your Power BI reports. Microsoft has tested and approved these Power BI visuals for functionality and quality. AppSource connects millions of users of products such as Microsoft 365, Azure, Dynamics 365, Cortana, and Power BI, to solutions that help them get work done more efficiently and insightfully than before.
+***Microsoft and community members contribute Power BI visuals for public benefit, and publish them to the [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).*** You can download these visuals and add them to your Power BI reports. ***Microsoft has tested and approved these Power BI visuals for functionality and quality.*** AppSource connects millions of users of products such as Microsoft 365, Azure, Dynamics 365, Cortana, and Power BI, to solutions that help them get work done more efficiently and insightfully than before.
 
 - By using Power BI visuals created with our SDK, you may be importing data from, or sending data to, third party or other services located outside of your Power BI tenant’s geographic area, compliance boundary, or national cloud instance.
 - Power BI certified visuals are visuals in the AppSource meet certain specified code requirements that the Microsoft Power BI team has tested and approved. The tests are designed to check that the visual doesn't access external services or resources.
@@ -166,15 +166,17 @@ Microsoft and community members contribute Power BI visuals for public benefit, 
 
 ### Filter data with Power BI
 
-Data is the core of Power BI. As you explore reports, each visual draws its underlying data from sources that often contain far more data than you need. Power BI offers several ways to filter and highlight reports. Knowing how to filter data is the key to finding the right information. Filtering only applies to reports, not to dashboards.
+***Power BI offers several ways to filter and highlight reports***. Knowing how to filter data is the key to finding the right information. Filtering only applies to reports, not to dashboards.
 
 #### Slicers
 
-A simple type of filtering that you can use directly on the report page is called a **slicer**. Slicers provide cues to ways you can filter the results in the visuals on a report page. There are several different types of slicers: numeric, categorical, and date. Slicers make it easy to filter all the visuals on the page at once. To select more than one field, hold the Ctrl key and click additional fields.
+***A simple type of filtering that you can use is called a slicer***. ***Slicers provide cues to ways you can filter the results in the visuals on a report page. There are several different types of slicers: numeric, categorical, and date.*** Slicers make it easy to filter all the visuals on the page at once. To select more than one field, hold the Ctrl key and click additional fields.
 
 ### The Filters pane
 
-Another way to filter data is by opening and modifying filters in the Filters pane. The Filters pane contains filters that were added to the report by the report designer. As a consumer, you can interact with the filters and save your changes but cannot add new filters. The four types of filters are:
+***Another way to filter data is by opening and modifying filters in the Filters pane***. The Filters pane contains filters that were added to the report by the report designer. As a consumer, you can interact with the filters and save your changes but cannot add new filters. 
+
+#### The four types of filters:
 
 - **Report** – Applies to all pages in the report.
 - **Page** – Applies to all the visuals on the current report page.
@@ -183,54 +185,42 @@ Another way to filter data is by opening and modifying filters in the Filters pa
 
 ### Buttons in Power BI
 
-Using **buttons** in Power BI lets you create reports that behave like apps, and thereby, create an engaging environment so users can hover, click, and further interact with Power BI content. You can add buttons to reports in **Power BI Desktop** and in the **Power BI service**. When you share your reports in the Power BI service, they provide an app-like experience for your users.
+***Using buttons in Power BI lets you create reports that behave like apps***, and thereby, create an engaging environment so users can hover, click, and further interact with Power BI content. ***You can add buttons to reports in Power BI Desktop and in the Power BI service***. When you share your reports in the Power BI service, they provide an app-like experience for your users.
 
 ### Transform data
 
-Sometimes, your data might contain extra data or have data in the wrong format. Power BI Desktop includes the **Power Query Editor** tool, which can help you shape and transform data so that it's ready for your models and visualizations.
+***Power BI Desktop includes the Power Query Editor tool, which can help you shape and transform data so that it's ready for your models and visualizations.***
 
-While Power BI can import your data from almost any source, its visualization and modeling tools work best with columnar data. Sometimes, your data won't be formatted in simple columns, which is often the case with Excel spreadsheets.
-
-After you've cleaned your data into a usable format, you can begin to create powerful visuals in Power BI.
-
-For more information, see [Tutorial: Combine sales data from Excel and an OData feed ](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/).
+***Power BI visualization and modeling tools work best with columnar data.*** Even though Power BI can import your data from almost any source. Sometimes, your data won't be formatted in simple columns, which is often the case with Excel spreadsheets. After you've cleaned your data into a usable format, you can begin to create powerful visuals in Power BI. For more information, see [Tutorial: Combine sales data from Excel and an OData feed ](https://docs.microsoft.com/en-us/power-bi/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/).
 
 ### Aggregates in the Power BI service
 
-***To mathematically combine values in your data is called aggregating.*** The result of that mathematical operation is an **aggregate**.
+***To mathematically combine values in your data is called aggregating.*** ***The result is an aggregate***.
 
 When Power BI service and Power BI Desktop create visualizations, they may aggregate your data. Often the aggregate is just what you need, but other times you may want to aggregate the values in a different way. For example, a sum versus an average. There are several different ways to manage and change the aggregate Power BI uses in a visualization. First, let's take a look at data *types* because ***the type of data determines how, and whether, Power BI can aggregate it.***
 
 #### Types of data
 
-***At the most basic level, the data is either numeric or it isn't***. Power BI can aggregate numeric data using a sum, average, count, minimum, variance, and much more. The service can even aggregate textual data, often called *categorical* data. If you try to aggregate a categorical field by placing it in a numeric-only bucket like **Values** or **Tooltips**, Power BI will count the occurrences of each category or count the distinct occurrences of each category. Special types of data, like dates, have a few of their own aggregate options: earliest, latest, first, and last.
+***At the most basic level, the data is either numeric or it isn't***. Power BI can aggregate numeric data using a sum, average, count, minimum, variance, and much more. The service can even aggregate textual data, often called *categorical* data. If you try to ***aggregate a categorical field by placing it in a numeric-only bucket*** like **Values** or **Tooltips**, Power BI will count the occurrences of each category or count the distinct occurrences of each category. Special types of data, like dates, have a few of their own aggregate options: earliest, latest, first, and last.
 
 #### Ways to aggregate your data
 
-Some of the options that may be available for aggregating a field:
-
+- **Sum**; **Average**; **Minimum**; **Maximum**; **Standard deviation**; **Variance**; **Median**
 - **Do Not Summarize**. With this option chosen, Power BI treats each value in that field separately and doesn't summarize them. Use this option if you have a numeric ID column that the service shouldn't sum.
-- **Sum**. Adds all the values in that field up.
-- **Average**. Takes an arithmetic mean of the values.
-- **Minimum**. Shows the smallest value.
-- **Maximum**. Shows the largest value.
 - **Count (Not Blanks).** Counts the number of values in that field that aren't blank.
 - **Count (Distinct).** Counts the number of different values in that field.
-- **Standard deviation.**
-- **Variance**.
-- **Median**. Shows the median (middle) value. This value has the same number of items above and below. If there are two medians, Power BI averages them.
 
 ## Security and administration
 
 ### Security
 
-Similar to many Microsoft services, Power BI is built on Azure. This is Microsoft's cloud computing infrastructure and platform, which ensures the same level of security for Power BI as other Microsoft services. Users sign in with their credentials held in Azure Active Directory and control the level of sharing for every report, data or dashboard, determining whether recipients can edit or only view items.
+***Power BI is built on Azure which ensures the same level of security for Power BI as other Microsoft services.*** Users sign in with their credentials held in Azure Active Directory and control the level of sharing for every report, data or dashboard, determining whether recipients can edit or only view items.
 
-It's important to note that users are responsible for the data they share. If a user connects to data sources using their credentials, they can share a report (or dashboard, or dataset) based on that data. Users with whom the dashboard is shared aren't authenticated against the original data source and will be granted access to the report. This is beneficial to allow users to share reports and dashboards they have created but does require responsibility on the user's part.
+***It's important to note that users are responsible for the data they share***. If a user connects to data sources using their credentials, they can share a report (or dashboard, or dataset) based on that data. Users with whom the dashboard is shared aren't authenticated against the original data source and will be granted access to the report. This is beneficial to allow users to share reports and dashboards they have created but does require responsibility on the user's part.
 
 ### Administration
 
-Power BI administration is the management of a Power BI tenant, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources.  Power BI is designed for self-service business intelligence. The administrator is the guardian of data, processes, and policies in the Power BI tenant. A Power BI administrator is a key member of a team that includes BI developers, analysts, and other roles. The administrator can help support an organization to make sure that critical goals are met.
+***Power BI administration is the management of a Power BI tenant***, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources.  Power BI is designed for self-service business intelligence. ***The administrator is the guardian of data, processes, and policies in the Power BI tenant.*** A Power BI administrator is a key member of a team that includes BI developers, analysts, and other roles. The administrator can help support an organization to make sure that critical goals are met.
 
 ## Summary
 
