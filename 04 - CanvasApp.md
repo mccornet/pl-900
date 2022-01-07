@@ -48,10 +48,12 @@ The basic Power Apps creator journey will look something like this:
 - Save and publish the app and test functionality
 - Share the app with end users to give them a better business process
 
-<details>
- <summary>Tutorial</summary>
+-----
 
->#### Connect to a data source
+<details>
+ <summary>Tutorial to Build an App</summary>
+
+>### Connect to a data source
 >
 >1. Download the [Contoso-Site-Tracking.zip](https://github.com/MicrosoftDocs/mslearn-build-app-solution/raw/master/downloads/Contoso-Site-Tracking.zip) file, extract all of the files, and save them to your OneDrive for Business.
 >
@@ -71,7 +73,7 @@ The basic Power Apps creator journey will look something like this:
 >
 >Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point. Generated apps are always based on a single list or table, but you can add more data to the app later.
 >
->#### Explore the generated app
+>### Explore the generated app
 >
 >Your new three-screen app now opens in Power Apps Studio. The following figure shows the main development window for Power Apps Studio.
 >
@@ -85,7 +87,7 @@ The basic Power Apps creator journey will look something like this:
 >
 >Close out of preview mode by selecting the "X" in the upper-right corner. To make your app visible on the phone, it needs to be saved. Select **File**, **Save as**. Replace the current title "App" with **Contoso Site Tracking app**, and then select **Save**. You will see a green check mark when all changes are successfully saved. You can now open the app on your phone.
 >
->#### Install the app on your device
+>### Install the app on your device
 >
 >To see how the app runs on mobile, install the Power Apps Mobile app on your phone. 
 >
@@ -93,7 +95,7 @@ The basic Power Apps creator journey will look something like this:
 >2. Sign in 
 >3. On your phone or tablet, run the **Contoso Site Tracking app** in Power Apps Mobile.
 >
->#### Customize the app
+>### Customize the app
 >
 >While the default screens make a useful app out of the box, customize a generated app to suit your needs. To improve the layout, use the following procedure:
 >
@@ -117,7 +119,7 @@ The basic Power Apps creator journey will look something like this:
 >
 >   <img src="https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/power-apps-text-preview.png" alt="Text edit confirmed preview" style="zoom:25%;" />
 >
->#### Add an additional data source
+>### Add an additional data source
 >
 >Sometimes when creating a canvas app, you need to combine data from multiple data sources. Follow these steps to add Office 365 Outlook as an additional data source. 
 >
@@ -133,7 +135,7 @@ The basic Power Apps creator journey will look something like this:
 >
 >See this documentation for the types of commands you can do with the **Office 365 Outlook** connector: [/connectors/office365/](https://docs.microsoft.com/en-us/connectors/office365/)
 >
->#### Details screen
+>### Details screen
 >
 >On the details screen, change the order of the fields. The controls on this screen differ from the controls on the browse screen, so the process for changing them is also slightly different.
 >
@@ -153,7 +155,7 @@ The basic Power Apps creator journey will look something like this:
 >
 >   ![field edit form view](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/field-edit-form-view.png)
 >
->#### Edit/create screen
+>### Edit/create screen
 >
 >On the screen where your users edit and create entries, you want to make it easier for them to enter information in a text box.
 >
@@ -168,22 +170,24 @@ The basic Power Apps creator journey will look something like this:
 >4. A multi-line edit control will simplify your user's ability to add more than a few words in this field. You could also reorder the fields to match the order from the Details screen to give the user a more consistent experience.
 </details>
 
+-----
+
 ## Controls in Power Apps
 
-A ***control is a UI element that produces an action or shows information***. Many controls in Power Apps are similar to controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on. In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
+***A control is a UI element that produces an action or shows information***. Many controls in Power Apps are similar to controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on. In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
 
 [![Control type list](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png)](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png#lightbox)
 
-A few controls that can add interest and impact to your apps include:
+#### A few controls:
 
-- **Galleries** - These controls are layout containers that hold a set of controls that show rows from a data source.
-- **Forms** - These controls show details about your data and let you create and edit records.
+- **Galleries** - These ***controls are layout containers*** that hold a set of controls that show rows from a data source.
+- **Forms** - These controls ***show details about your data and let you create and edit records***.
 - **Media** - These controls let you add background images, include a camera button (so that users can take pictures from the app), a barcode reader for quickly capturing identification information, and more.
-- **Charts** - These controls let you add charts so that users can perform instant analysis while they're on the road.
+- **Charts** - These controls let you ***add charts to allow instant analysis***.
 
 ## Functions
 
-In Power Apps, there is no need to write complicated application code. ***Formulas are used to express logic in an app*** and control its navigation, filtering, sorting, and other functionality. The language is similar to Excel. ***Combine one or more formulas with the required and optional parameters***. 
+***Formulas are used to express logic in an app*** and control its navigation, filtering, sorting, and other functionality. The language is similar to Excel. ***Combine one or more formulas with the required and optional parameters***. 
 
 ### Common Functions
 
@@ -196,7 +200,12 @@ For a complete list of all of the functions available in Power Apps, check out t
 
 ## Sharing an App
 
-Sharing the app is the final step as an app creator. Share the app to test the full functionality with some stakeholders. This will give them a chance to provide feedback. When you share an app, they can run it in a browser, or in the players for Apple iOS and Google Android. It is  possible to give someone permission to update the app.
+***Sharing the app is the final step as an app creator. Share the app to test the full functionality with some stakeholders***. This will give them a chance to provide feedback. When you share an app, they can run it in a browser, or in the players for Apple iOS and Google Android. It is  possible to give someone permission to update the app.
+
+-----
+
+<details>
+<summary>Tutorial to Share an App</summary>
 
 **To share an app** complete the following steps, open the app that you want to share in Edit mode.
 
@@ -225,6 +234,11 @@ Sharing the app is the final step as an app creator. Share the app to test the f
 7. Click **Share**.
 
    If you make and save changes to a shared app, the people whom you shared it with will see your changes as soon as you publish them. This can be useful if you improve the app, but it can also negatively affect users if you remove or significantly change features. Remember to create a notification plan for alerting your users of major updates.
+
+
+</details>
+
+-----
 
 ### Permissions and licensing
 
