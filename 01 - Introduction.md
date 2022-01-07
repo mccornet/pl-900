@@ -36,11 +36,7 @@ In order to understand the types of connectors and what you can do with them, fi
 
 ### Connectors
 
-Connectors are the bridges from your data source to your app, workflow, or dashboard. Connectors are divided into ***standard*** and ***premium***. Some popular standard connectors are SharePoint, Outlook, and YouTube. Premium connectors require additional licensing for your app and/or users. The connector reference in the summary and resources unit lists all connectors and whether they are considered standard or premium. You can also use AppSource to source and install apps and use the connectors to non-Microsoft services.
-
-Connectors can provide input and output between the data source and Power Platform, which can accelerate the delivery of Microsoft Power Platform business solutions.
-
-All Microsoft Power Platform business solutions can be used and implemented into Microsoft 365 apps such as Teams. This allows users to play Power Apps within Teams or run Power Automate from actions and events within Teams.
+Connectors can ***provide input and output between the data source and Power Platform***, which can accelerate the delivery of Microsoft Power Platform business solutions. Connectors are the ***bridges from your data source to your app, workflow, or dashboard***. Connectors are divided into ***standard*** and ***premium***. Some popular standard connectors are SharePoint, Outlook, and YouTube. Premium connectors require additional licensing for your app and/or users. 
 
 #### Custom Connectors
 
