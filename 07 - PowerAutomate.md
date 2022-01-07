@@ -32,7 +32,7 @@ As you can see, even the business process has many decision points. The flow eas
 
 ## Working with Data
 
-When building an app, access to data is very important. ***Power Platform supports multiple data connections allowing to use data from many platforms into a single automation***. Through connectors easily connect to data and services across the web and even on-premises. 
+***Power Platform supports multiple data connections allowing to use data from many platforms into a single automation using connectors***. Through these connectors easily ***connect to data and services across the web and even on-premises***. 
 
 ## Three types of flows
 
@@ -42,9 +42,9 @@ When building an app, access to data is very important. ***Power Platform suppor
 
 ## Add Artificial Intelligence
 
-Add AI with a ***wizard-based interface for building and training the model***. This unlocks the power of ***Azure Machine Learning and Cognitive services*** without writing a single line of code. To take advantage of these AI capabilities first build a model. 
+***Add AI with a*** ***wizard-based interface for building and training the model***. ***This uses Azure Machine Learning and Cognitive services*** without writing a single line of code. To take advantage of these AI capabilities first build a model. 
 
-Currently,***four AI models***:
+### Four AI models
 
 - **Form processor** - This model ***extracts text from an image*** or taken photo.
 - ***Object detector*** - This model ***identifies and counts objects*** in an image
@@ -53,7 +53,7 @@ Currently,***four AI models***:
 
 ### The prediction model
 
-The AI Builder prediction model allows you to create a model that can ***predict a yes or no outcome based on historical data***. Train the model by providing historical data which includes the yes/no outcome and then artificial intelligence does the rest. You can build prediction models to solve business problems such as:
+***The prediction model is a model that can predict a yes or no outcome based on historical data.*** Train the model by providing historical data which includes the yes/no outcome and then artificial intelligence does the rest. You can build prediction models to solve business problems such as:
 
 - Will your customer be satisfied with the project outcome?
 - Will a project be profitable?
@@ -63,7 +63,7 @@ Once you have a trained model, then you can interact with the model in your flow
 
 ## Security and Administration
 
-There are ***three tools*** for an administrator.
+***There are three tools for an administrator.***
 
 1. **Admin center**. Located at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/). From the Microsoft Power Platform admin center you have ***full access to Power Automate tenant wide***. You have the ability to ***create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas.*** 
 
@@ -73,9 +73,11 @@ There are ***three tools*** for an administrator.
 
 ## Driving business value
 
-Power Automate flows are built with triggers and actions. Triggers determine what starts the flows, while actions determine what happens. ***Power Automate provides the ability to specify the business logic to determine the necessary conditions; that means these automations do not have to be driven from IT but instead directly from the business.*** The same way that the Sales department builds its manual processes today by emailing spreadsheets between people, they can build their flow to automate the process going forward.
+***Power Automate flows are built with triggers and actions. Triggers determine what starts the flows, while actions determine what happens***. 
 
-If you are in IT or otherwise responsible for governance, Power Automate has plenty to offer for you. With Power Automate there are many security, governance, and reporting capabilities to provide the necessary oversight. You can even write a flow to manage all of the other flows. Also, Power Automate doesn't circumvent security in any way. Users cannot build flows to do things they don't already have permission to do today.
+***Power Automate provides the ability to specify the business logic to determine the necessary conditions; that means these automations do not have to be driven from IT but instead directly from the business.*** The same way that the Sales department builds its manual processes today by emailing spreadsheets between people, they can build their flow to automate the process going forward.
+
+***With Power Automate there are many security, governance, and reporting capabilities to provide the necessary oversight for IT.*** You can even write a flow to manage all of the other flows. Also, Power Automate doesn't circumvent security in any way. Users cannot build flows to do things they don't already have permission to do today.
 
 ## Summary
 
