@@ -30,7 +30,7 @@ Which allows you to leverage the security and connectivity of Microsoft services
 
 ***The standard table design uses the  open data model standard called Common Data Model***. ***Common Data Model is a logical design that includes a set of open-sourced, standardized, extensible data tables and relationships*** that Microsoft and its partners have published in an industry-wide initiative called the Open Data Initiative. 
 
-### Structure and Benefits
+### Structure & Benefits
 
 ***The structure is based upon the definitions and schema in the Common Data Model. The key benefit is simplified integration into any other solution that use a Common Data Model schema***, because the standard tables of the solution are the same. You will also be able to take advantage of a rich ecosystem of solutions that vendors have built from using Common Data Model. 
 
@@ -66,6 +66,7 @@ One-to-many relationships are also known as parent-child relationships. A column
 <p align="center">
 	<img src="https://docs.microsoft.com/en-us/learn/modules/introduction-common-data-service/media/environment.png" alt="Contoso tenant to environment map" width="750px" />
 <p>
+
 ***You can create more than one environment to manage solution development and data storage*** by setting up one environment for development, another for testing, and another for production use. Also, you can set up an environment based on a geographical location. For example, you might set up an environment for Europe and another for Asia. 
 
 ## Business Rules
@@ -96,7 +97,7 @@ One-to-many relationships are also known as parent-child relationships. A column
 
 ## Administer
 
-***The Microsoft Power Platform admin center will satisfy most administrative needs.*** ***Other administrative options are covered in the Dataverse learning path.*** 
+***The Microsoft Power Platform admin center will satisfy most administrative needs. Other administrative options are covered in the Dataverse learning path.*** 
 
 ### Admin Center
 
