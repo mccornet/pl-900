@@ -52,7 +52,7 @@
 
 ***Triggers are used in Power Automate and prompt a flow to begin***. Triggers can be time based, such as a flow which begins every day at 8:00 am, or they could be based off of an action like creating a new row in a table or receiving an email. You will always need a trigger to tell your workflow when to run.
 
-***Actions are in Automate and Apps; by the user or a trigger*** ***and allow interaction with a data source by some function.*** 
+***Actions are in Automate and Apps; activated by the user or a trigger and allow interaction with a data source by some function.*** 
 
 ## DLP, Compliance, Privacy, Accessibility
 
