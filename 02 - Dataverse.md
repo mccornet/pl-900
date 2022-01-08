@@ -1,57 +1,53 @@
 # PL-900 Dataverse
 
-***Microsoft Dataverse is a*** ***cloud-based, low-code data service and app platform***, which allows you to leverage the security and connectivity of Microsoft services. Dataverse connects easily to all aspects of Microsoft Power Platform so that you can fully control, automate, and strengthen your business. 
+***Dataverse is a cloud-based, (not designed for stand-alone use) low-code data service and app platform. Available globally but deployed geographically to comply with your potential data residency. It is designed to be your central data repository for business data.*** 
 
-## Overview
+Which allows you to leverage the security and connectivity of Microsoft services. Dataverse connects easily to all aspects of Microsoft Power Platform so that you can fully control, automate, and strengthen your business. It powers many Microsoft Dynamics 365 solutions such as Field Service, Marketing, Customer Service, and Sales. It is also available as part of Power Apps and Power Automate with native connectivity built right in. The AI Builder and Portals features of Microsoft Power Platform also utilize Dataverse.
 
-Microsoft Dataverse is a cloud-based solution that easily structures a variety of data and business logic to support interconnected applications and processes in a secure and compliant manner. Managed and maintained by Microsoft, ***Dataverse is available globally but deployed geographically*** to comply with your potential data residency. It is ***not designed for stand-alone use*** on your servers, so you will need an internet connection to access and use it.
+<p align="center">
+	<img src="https://docs.microsoft.com/en-us/learn/modules/introduction-common-data-service/media/common-data-service-diagram.png" alt="Dataverse API options" width="750px" />
+<p>
 
-***Dataverse is designed to be your central data repository for business data***. It powers many Microsoft Dynamics 365 solutions such as Field Service, Marketing, Customer Service, and Sales. It is also available as part of Power Apps and Power Automate with native connectivity built right in. The AI Builder and Portals features of Microsoft Power Platform also utilize Dataverse.
+**Security**: - ***handle authentication with Azure Active Directory*** (Azure AD) to allow for conditional access and multi-factor authentication. It supports authorization down to the row and column level and provides rich auditing capabilities.
 
-![Dataverse API options](https://docs.microsoft.com/en-us/learn/modules/introduction-common-data-service/media/common-data-service-diagram.png)
+**Logic**: - ***apply business logic at the data level***. Regardless of how a user is interacting with the data, the same rules apply. These rules could be related to duplicate detection, business rules, workflows, or more.
 
-**Security**: Dataverse handles ***authentication with Azure Active Directory*** (Azure AD) to allow for conditional access and multi-factor authentication. It supports authorization down to the row and column level and provides rich auditing capabilities.
+**Data**: - ***control the shape of your data***, allowing you to discover, model, validate, and report on your data. 
 
-**Logic**: Dataverse allows you to easily ***apply business logic at the data level***. Regardless of how a user is interacting with the data, the same rules apply. These rules could be related to duplicate detection, business rules, workflows, or more.
+**Storage**: - ***stores data in the Azure cloud***. 
 
-**Data**: Dataverse offers you the ***control over the shape your data***, allowing you to discover, model, validate, and report on your data. This control ensures your data looks the way you want regardless of how it is used.
+**Integration**: - ***APIs, webhooks, eventing, and data exports offer flexibility to get data in and out***.
 
-**Storage**: Dataverse ***stores data in the Azure cloud***. This cloud-based storage removes the burden of worrying about where your data lives or how it scales. T
+## Dataverse Defined
 
-**Integration**: Dataverse connects in different ways to support your business needs. ***APIs, webhooks, eventing, and data exports offer flexibility to get data in and out***.
-
-### Dataverse defined
-
-***A Dataverse database is a single instance of Microsoft Dataverse*** ***which stores data in a set of standard and custom data structures called tables.*** A table is a logical set of rows that is used to store data. Rows within a table contain many columns to manage individual pieces of information about a single row.
-
-You can create one or many database instances in Microsoft Dataverse to host data behind your business solutions. Each instance of a Microsoft Dataverse will start with the same set of tables to store data, but you can always extend and customize a Microsoft Dataverse database to meet specific business needs. This means that you can share business solutions that reference standard tables in Microsoft Dataverse across your organization or with any other organization by using it anywhere in the world.
+***A Dataverse database is a single instance of Microsoft Dataverse*** ***which stores data in a set of standard and custom data structures called tables.*** A table is a logical set of rows that is used to store data. Rows within a table contain many columns to manage individual pieces of information about a single row. You can create one or many database instances in Microsoft Dataverse to host data behind your business solutions. Each instance of a Microsoft Dataverse will start with the same set of tables to store data, but you can always extend and customize a Microsoft Dataverse database to meet specific business needs. This means that you can share business solutions that reference standard tables in Microsoft Dataverse across your organization or with any other organization by using it anywhere in the world.
 
 ### Scalability
 
-***A Dataverse database supports large data sets and complex data models***. Tables can hold millions of items, and you can extend the storage in each instance of a Microsoft Dataverse database to four (4) terabytes per instance. ***The amount of data that is available in your instance of Microsoft Dataverse is based upon the number and type of licenses that are associated with it.*** Data storage is pooled between all licensed users, so you can allocate storage as needed for each solution that you build. Additional storage can be purchased if you need more storage than what is offered within standard licensing.
+***A Dataverse database supports large data sets and complex data models***. ***The amount of data that is available in your instance of Microsoft Dataverse is based upon the number and type of licenses that are associated with it.*** Tables can hold millions of items, and you can extend the storage in each instance of a Microsoft Dataverse database to four (4) terabytes per instance. Data storage is pooled between all licensed users, so you can allocate storage as needed for each solution that you build. Additional storage can be purchased if you need more storage than what is offered within standard licensing.
 
 ### Common Data Model
 
 ***The standard table design uses the  open data model standard called Common Data Model***. ***Common Data Model is a logical design that includes a set of open-sourced, standardized, extensible data tables and relationships*** that Microsoft and its partners have published in an industry-wide initiative called the Open Data Initiative. 
 
-### Microsoft Dataverse structure and benefits
+### Structure and Benefits
 
-The structure of a Microsoft Dataverse database is based upon the definitions and schema in the Common Data Model. ***The key benefit of using Common Data Model is simplified integration of any solutions that use a Common Data Model schema***, because the standard tables of the solution are the same. You will also be able to take advantage of a rich ecosystem of solutions that vendors have built from using Common Data Model. 
+***The structure is based upon the definitions and schema in the Common Data Model. The key benefit is simplified integration into any other solution that use a Common Data Model schema***, because the standard tables of the solution are the same. You will also be able to take advantage of a rich ecosystem of solutions that vendors have built from using Common Data Model. 
 
-## Tables & Columns
+### Tables & Columns
 
 ***A table is a logical structure containing rows and columns that represents a set of data.***
 
-### Types of tables
+#### Types of Tables
 
-- **Standard** - The ***base set of tables that are created for every instance of a Microsoft Dataverse database***. You can add more columns to any table, but you can only delete columns from a custom table.
-- **Complex** - Tables that ***contain complex, server-side business logic***, including real-time workflows or plug-ins. Some of the tables that are used in Dynamics 365 applications are complex. Care must be taken *if you add server-side logic to ensure that users have the proper license to use the complex table*. 
+- **Standard** - ***base set of tables that are created for every instance of a Microsoft Dataverse database***. You can add more columns to any table, but you can only delete columns from a custom table.
+- **Complex** - ***Tables that contain complex, server-side business logic***, including real-time workflows or plug-ins. Some of the tables that are used in Dynamics 365 applications are complex. Care must be taken *if you add server-side logic to ensure that users have the proper license to use the complex table*. 
 
-### Columns
+#### Columns
 
 ***Columns are a way to store a discrete piece of information within a row in a table***. Columns have data types. Every database in Microsoft Dataverse starts with a standard set of tables and each standard table has a standard set of columns.
 
-## Relationships
+### Relationships
 
 ***To make an efficient and scalable solution for most of the solutions it is needed to split up data into different containers (tables). The two most common relationships between tables are one-to-many and many-to-many***, both of which are supported by Microsoft Dataverse.
 
@@ -61,17 +57,20 @@ One-to-many relationships are also known as parent-child relationships. A column
 
 ## Environments
 
-***Environments are used to store, manage, and share your organization's business data, apps, and flows*** in Microsoft Power Platform. ***Each environment allows you to provision one Microsoft Dataverse database*** for use within that environment. Microsoft Dataverse environments allow you to manage user access, security settings, and the storage that is associated with that database.
+***Environments are used to store, manage, and share your organization's business data, apps, and flows***.***Each environment allows you to provision one Microsoft Dataverse database*** for use within that environment. Microsoft Dataverse environments allow you to manage user access, security settings, and the storage that is associated with that database.
 
 ***Each environment is created under a Microsoft Azure Active Directory (Azure AD) tenant, and its resources can only be accessed by users within that tenant.*** ***An environment is bound to a geographic location***. 
 
-***A Microsoft Dataverse database is created within datacenters in that geographic location. Any items that you create in that environment (including connections, gateways, flows that are using Power Automate, and more) are also bound to their environment's location.*** ![Contoso tenant to environment map](https://docs.microsoft.com/en-us/learn/modules/introduction-common-data-service/media/environment.png)
+***A Microsoft Dataverse database is created within datacenters in that geographic location. Any items that you create in that environment (including connections, gateways, flows that are using Power Automate, and more) are also bound to their environment's location.*** 
 
-You can create more than one environment to manage solution development and data storage by setting up one environment for development, another for testing, and another for production use. Also, you can set up an environment based on a geographical location. For example, you might set up an environment for Europe and another for Asia. 
+<p align="center">
+	<img src="https://docs.microsoft.com/en-us/learn/modules/introduction-common-data-service/media/environment.png" alt="Contoso tenant to environment map" width="750px" />
+<p>
+***You can create more than one environment to manage solution development and data storage*** by setting up one environment for development, another for testing, and another for production use. Also, you can set up an environment based on a geographical location. For example, you might set up an environment for Europe and another for Asia. 
 
 ## Business Rules
 
-***In Microsoft Dataverse you can define business rules that allow you to apply and maintain business logic at the data layer instead of the app layer.*** For example, business rules can be used in canvas and model-driven apps to set or clear values in one or many columns in a table. Or to validate stored data or show error messages. Model-driven apps can use business rules to show or hide columns, enable or disable columns, and create recommendations based on business intelligence.
+***In Dataverse you can define business rules that allow you to apply and maintain business logic at the data layer instead of the app layer.*** For example, business rules can be used in canvas and model-driven apps to set or clear values in one or many columns in a table. Or to validate stored data or show error messages. Model-driven apps can use business rules to show or hide columns, enable or disable columns, and create recommendations based on business intelligence.
 
 > **Tip**
 >
@@ -97,11 +96,13 @@ You can create more than one environment to manage solution development and data
 
 ## Administer
 
-Microsoft Dataverse has a rich set of administrative options that you can use to create new instances of a database or tailor access and features that are available for users of each Dataverse database instance. Several administrative portals are available for you to use to administer Microsoft Dataverse settings. ***The Microsoft Power Platform admin center will satisfy most administrative needs.*** However, a few other administrative options are available, which are covered in the Manage permissions and administration for Microsoft Dataverse learning path.
+***The Microsoft Power Platform admin center will satisfy most administrative needs.*** ***Other administrative options are covered in the Dataverse learning path.*** 
 
-### Microsoft Power Platform admin center
+### Admin Center
 
-The Microsoft Power Platform admin center lets you manage the tasks of setting up users, permissions, and many other important features and capabilities of Microsoft Dataverse. Settings are grouped into the following broad categories and are accessible by selecting the link on the left-hand side of the portal, as shown in the following figure.
+***The admin center lets you manage the tasks of setting up users, permissions, and many other important features and capabilities.*** 
+
+**Settings are grouped into categories:**
 
 - **Environments** - This section lists all instances of Microsoft Dataverse.
 - **Data policies** - This section lets you set up policies to restrict which data connectors can be used with Microsoft Dataverse to limit what data can flow into or out of Microsoft Dataverse tables.
