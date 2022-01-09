@@ -2,51 +2,35 @@
 
 ***Canvas apps are used to make Mobile or Tablet focused applications.*** 
 
-## Basic Elements
+### Basic Elements
 
-Below is a list of the basic elements and terminology used. 
+- **Power Apps Studio** - [https://make.PowerApps.com](https://make.powerapps.com/).
 
-- **Power Apps Studio**
+- **App format** - **Mobile or Tablet.**
 
-  [https://make.PowerApps.com](https://make.powerapps.com/).
+- **Galleries** - ***The Gallery control is used to display rows from a table of data defined by a customizable template.*** Power Apps will then apply this template automatically to every row in the data.
 
-- **App format**
+- **Forms** - ***to work with a specific record: viewing and editing existing ones or, saving new records.***. 
 
-  Mobile or Tablet.
+- **Input Controls** - ***Such as text inputs, buttons, dropdowns, date pickers; with settings for default data, formatting, and actions.***
 
-- **Galleries**
-
-  ***The Gallery control is used to*** ***display rows from a table of data***. The display of a row is then ***defined by a customizable template***, to meet your needs. Power Apps will then apply this template automatically to every row in your data.
-
-- **Forms**
-
-  ***Focused on*** ***working with a specific record***, often based on a selection from a gallery. In this experience, a user browses a gallery to find and select the desired row to view the details on the form. Forms enable a user to ***view detailed information, save new records and edit existing ones***. The various ***actions performed with forms are controlled by form modes*** allowing the form to serve many purposes.
-
-- **Input Controls**
-
-  Power Apps has a large selection of Input controls. Text inputs, buttons, dropdowns, toggles, date pickers, and sliders are a few examples. All inputs have a multitude of settings for default data, formatting, and actions.
-
-- **Intelligent Controls**
-
-  ***Controls for more advanced operations***. There are ***hardware-based controls*** which allow access to the camera, bar code scanner, GPS, and more hardware features. There are also ***service backed controls*** like the business card reader or object detector which allow you to add artificial intelligence to your app without writing code.
+- **Intelligent Controls** - ***For more advanced operations:  *Hardware-based controls* allow access to  hardware features. *Service backed controls* make it possible to add AI***
 
   > Knowledge check
   >
   > "The barcode scanner control is a part of the Media category of controls."
 
-- **Functions**
+- **Functions** - ***Based on the Excel language, to binds actions, controls, inputs, and data together***
 
-  ***Functions are the glue that*** ***binds all these controls, inputs, and data sources together***. Functions can be used to create formulas in your apps. The ***language is similar to Excel and can be used for actions*** such as sending data to a data source, formatting information, creating animations, and more.
+## Building an App
 
-## Build the App
+**The basic steps:**
 
-The basic Power Apps creator journey will look something like this:
-
-- Identify a business need.
-- Connect to any necessary data.
-- Design the app using controls, buttons, and an easy to use interface for your end user to interact with the data.
-- Save and publish the app and test functionality
-- Share the app with end users to give them a better business process
+- ***Identify a business need.***
+- ***Connect to any necessary data***.
+- ***Design the app.***
+- ***Save and publish the app and test functionality.***
+- ***Share the app.*** 
 
 -----
 
@@ -174,29 +158,31 @@ The basic Power Apps creator journey will look something like this:
 
 ## Controls in Power Apps
 
-***A control is a UI element that produces an action or shows information***. Many controls in Power Apps are similar to controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on. In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
+***A control is a UI element that produces an action or shows information***. Many controls in Power Apps are similar to controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on. In addition to these typical controls, Power Apps has more specialized controls, which you can find on the Insert tab.
 
-[![Control type list](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png)](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png#lightbox)
+<p align="center">
+	[<img src="https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png" alt="Control type list" width="750px" />](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png#lightbox)
+</p>
 
-#### A few controls:
+### A few controls:
 
-- **Galleries** - These ***controls are layout containers*** that hold a set of controls that show rows from a data source.
-- **Forms** - These controls ***show details about your data and let you create and edit records***.
-- **Media** - These controls let you add background images, include a camera button (so that users can take pictures from the app), a barcode reader for quickly capturing identification information, and more.
-- **Charts** - These controls let you ***add charts to allow instant analysis***.
+- **Galleries** - ***layout containers that hold a set of controls that show rows from a data source.***
+- **Forms** -  ***show details about the data and allows creation and editing of records***.
+- **Media** - ***add background images, include a camera button, a barcode reader, and more.***
+- **Charts** - ***add charts to allow instant analysis***.
 
 ## Functions
 
-***Formulas are used to express logic in an app*** and control its navigation, filtering, sorting, and other functionality. The language is similar to Excel. ***Combine one or more formulas with the required and optional parameters***. 
+***Formulas are used to express logic in an app and control its navigation, filtering, sorting, and other functionality. It is possible to combine one or more formulas with the required and optional parameters***. 
 
 ### Common Functions
 
-- **Filter** - often used with galleries or tables of data ***to narrow down the rows*** returned from your data source. Do this by ***specifying  column(s) to perform a logic test on***.
-- **Match** - ***check if a value follows a given pattern***. You can use this to check if the user entered a properly formatted email address and, if they did not, show them a warning that a valid email is required. This function serves well for conditional formatting.
-- **Distinct** - This function allows you to ***return the unique values from a list of data***, making it easier to build dynamic dropdowns that show users only the valid values for the given column.
-- **Math functions** - Power Apps includes a range of math formulas for working with your data from the simple such as Sum or Average to the complex such as Atan and Sin to work with radians.
+- **Filter** -  ***narrow down the rows by specifying column(s) to perform a logic test on***.
+- **Match** - ***Check if a value follows a given pattern; serves well for conditional formatting.***
+- **Distinct** -  ***return the unique values from a list of data***
+- **Math functions** - ***Math formulas like in Excel***
 
-For a complete list of all of the functions available in Power Apps, check out the documentation [here](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference#s). 
+A complete list of all of the functions available can be found [here](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference#s). 
 
 ## Sharing an App
 
@@ -242,12 +228,12 @@ For a complete list of all of the functions available in Power Apps, check out t
 
 ### Permissions and licensing
 
-There is some basic information about permissions and licensing of which you should be aware:
+**Some basic information about permissions and licensing:**
 
 - Users and contributors need permissions to any data connections and gateways that a shared app uses.
 - Some permissions come implicitly with the app, but you must explicitly grant others.
 - If you create an app based on Microsoft Dataverse, you must also ensure that the users with whom you share the app have the appropriate permissions for the table or tables on which the app relies. Specifically, those users must belong to a security role that can perform tasks such as creating, reading, writing, and deleting relevant rows.
-- In many cases, you'll want to create one or more custom security roles with the exact permissions that users need to run the app. You can then assign a role to each user as appropriate.
+- In many cases, there is a need to create one or more custom security roles with the exact permissions that users need to run the app. 
 
 
 
