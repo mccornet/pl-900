@@ -161,7 +161,7 @@
 ***A control is a UI element that produces an action or shows information***. Many controls in Power Apps are similar to controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on. In addition to these typical controls, Power Apps has more specialized controls, which you can find on the Insert tab.
 
 <p align="center">
-	[<img src="https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png" alt="Control type list" width="750px" />](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png#lightbox)
+	<img src="https://docs.microsoft.com/en-us/learn/modules/build-app-solution/media/control-type-list.png" alt="Control type list" width="750px" />
 </p>
 
 ### A few controls:
