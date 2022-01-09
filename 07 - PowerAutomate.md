@@ -1,8 +1,6 @@
-# Power Automate
+# PL-900 Power Automate
 
-***Power Automate is used to automate repetitive processes***. Anyone with knowledge of the business process can create repeatable flows that when triggered leap into action and perform the process for them.
-
-Beyond simple workflows, Power Automate can send reminders on past due tasks, move business data between systems on a schedule, talk to more than 275 data sources or any publicly available API, and can even automate tasks on your local computer like computing data in Excel. 
+***Power Automate is used to automate repetitive processes***. Anyone with knowledge of the business process can create repeatable flows that when triggered leap into action and perform the process for them. Beyond simple workflows, Power Automate can send reminders on past due tasks, move business data between systems on a schedule, talk to more than 275 data sources or any publicly available API, and can even automate tasks on your local computer like computing data in Excel. 
 
 **Common scenarios:**
 
@@ -32,44 +30,38 @@ As you can see, even the business process has many decision points. The flow eas
 
 ## Working with Data
 
-***Power Platform supports multiple data connections allowing to use data from many platforms into a single automation using connectors***. Through these connectors easily ***connect to data and services across the web and even on-premises***. 
+***Power Platform supports multiple data connections allowing to use data from many platforms into a single automation using connectors***. 
 
 ## Three types of flows
 
-- **Event driven flows** - Flows that ***contain a trigger and then one or more actions***. There are a multitude of triggers and actions available, thanks to the existing connectors. ***There are My flows and Team flows.*** ***The difference between a My flow and a Team flow is ownership***. With a My flow you are the sole owner, while a Team flow has more than one owner.
-- **Business process flows** - Used to create a ***guided experience in Model-driven apps***.
-- **Desktop flows** - These **robotic process automation** (RPA) flows allows to ***record actions on a desktop*** or within a web browser. Then ***trigger a flow to perform that process***. ***It is possible to pass data in or get data out of the process***, letting you automate even "manual" business processes.
+- **Event driven flows** - ***Flows that contain a trigger and then one or more actions. There are My flows and Team flows. The difference between a My flow and a Team flow is ownership.*** With a My flow you are the sole owner, while a Team flow has more than one owner.
+- **Business process flows** - ***Used to create a guided experience in Model-driven apps.***
+- **Desktop flows** - ***These robotic process automation (RBA) record actions on a desktop.*** ***Then "trigger" that flow to perform that process. It is possible to pass data in or get data out of the process***
 
 ## Add Artificial Intelligence
 
-***Add AI with a*** ***wizard-based interface for building and training the model***. ***This uses Azure Machine Learning and Cognitive services*** without writing a single line of code. To take advantage of these AI capabilities first build a model. 
+***Power Apps has "democratized" artificial intelligence by providing a wizard-based interface for building and training a model***. 
 
-### Four AI models
+**Currently 4 models:**
 
-- **Form processor** - This model ***extracts text from an image*** or taken photo.
-- ***Object detector*** - This model ***identifies and counts objects*** in an image
-- **Prediction** - This model ***predict a yes or no outcome based on historical data***. 
-- **Text classification** - This model ***categorizes text by its meaning***, making it is easier to analyze.
+- **Prediction** - ***predicts a yes or no outcome***. 
+- **Form processor** - ***extracts text from an image***
+- **Object detector** - ***identify objects from an image***
+- **Text classification** - ***categorizes text by its meaning***
 
-### The prediction model
+### The Prediction Model
 
-***The prediction model is a model that can predict a yes or no outcome based on historical data.*** Train the model by providing historical data which includes the yes/no outcome and then artificial intelligence does the rest. You can build prediction models to solve business problems such as:
-
-- Will your customer be satisfied with the project outcome?
-- Will a project be profitable?
-- Will a customer churn based on activity?
-
-Once you have a trained model, then you can interact with the model in your flow to send and receive information to the AI system. 
+***This is a model that can predict yes or no outcomes based on historical data***. Train the model by providing historical data that includes the yes/no outcome and then artificial intelligence does the rest.
 
 ## Security and Administration
 
 ***There are three tools for an administrator.***
 
-1. **Admin center**. Located at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/). From the Microsoft Power Platform admin center you have ***full access to Power Automate tenant wide***. You have the ability to ***create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas.*** 
+1. **Admin center** -  ***Provides full access to Power Automate tenant wide. Create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas.*** 
 
-2. **PowerShell cmdlets** - Power Automate also offers a set of PowerShell cmdlets ***for deeper controls and to work better in large-scale scenarios***. Using the cmdlets for auditing gives you more control and insight on Power Automate's usage throughout your tenant.
+2. **PowerShell cmdlets** -  ***offer deeper control and work better in large-scale scenarios***. Using the cmdlets for auditing gives you more control and insight on Power Automate's usage throughout your tenant.
 
-3. **Flows** - There are built in ***flow actions for managing both Power Automate and Power Apps***. An example of a helpful flow is one that runs everyday at 8 AM to discover all of the flows and Power Apps that have been created and then add someone from IT as a co-owner of each. That way IT has access and awareness of the solutions within the organization. 
+3. **Flows** - ***There are built in flow actions for managing both Power Automate and Power Apps***. An example of a helpful flow is one that runs everyday at 8 AM to discover all of the flows and Power Apps that have been created and then add someone from IT as a co-owner of each. That way IT has access and awareness of the solutions within the organization. 
 
 ## Driving business value
 
