@@ -1,28 +1,22 @@
 # PL-900 Model Driven App
 
-***Model-driven app design is a*** ***component-focused approach to app development that focuses on adding dashboards, forms, views, and charts*** to your apps. Model-driven app design does not require code, and the apps you make can be simple or very complex. 
-
-In canvas apps, the app maker has total control over the app layout. In model-driven apps, on the other hand, ***much of the layout is determined by the components you add***. The emphasis is more on quickly viewing your business data and making decisions instead of on intricate app design.
+***Model-driven app design is a component-focused approach to app development that focuses on adding dashboards, forms, views, and charts; much of the layout is determined by the added components***. The emphasis is more on quickly viewing your business data and making decisions instead of on intricate app design.
 
 ## Making model-driven apps
 
-**Three design phases**:
+***Building an app usually involves 3 steps.***
 
-1. Model your business data
-2. Define your business processes
-3. Build the app
+### 1. Model the Business Data
 
-### 1. Model your business data
+***To model business data, determine what data the app will need and how that data will relate to other data***. Model-driven design uses metadata-driven architecture so that designers can customize apps without writing code. Metadata means *data about data* and defines the structure of the data stored in Microsoft Dataverse.
 
-***To model business data,*** ***determine what data the app will need and how that data will relate to other data***. Model-driven design uses metadata-driven architecture so that designers can customize apps without writing code. Metadata means *data about data* and defines the structure of the data stored in Microsoft Dataverse.
+### 2. Define the Business Processes
 
-### 2. Define your business processes
-
-***Defining and enforcing consistent business processes is a key aspect*** of model-driven app design. Consistent processes help ensure that users can focus on their work and not worry about having to remember to perform a set of manual steps. 
+***Define and enforce a consistent business proces*** Consistent processes help ensure that users can focus on their work and not worry about having to remember to perform a set of manual steps. 
 
 ### 3. Build the app
 
-***After modeling data and defining processes,*** ***the app is build by selecting and setting up the components in the App Designer***.
+***After modeling data and defining processes, the app is build by selecting and setting up the components in the App Designer***.
 
 ## Building blocks of model-driven apps
 
@@ -30,47 +24,45 @@ In canvas apps, the app maker has total control over the app layout. In model-dr
 
 ### Data
 
-***There are different data components which can determine what data the app will be based upon***. These components are all ***created or edited using the Table designer***.
+***There are different data components; created or edited using the Table designer; that determine what data the app will be based upon.*** 
 
-- **Tables**: ***items with properties that you track***. Examples include contacts and accounts. Many standard tables are available. Or create a custom table from scratch.
-- **Columns:** are ***properties that are associated with a table*** and help define that table. A column is defined by a data type, which determines the type of data that can be entered or selected. 
-- **Relationships:** define ***how tables can be related to each other***. There are 1:N (one-to-many), N:1 (many-to-one), and N:N (many-to-many) relationships. 
-- **Choice**: a type of ***column that shows a control that lets the user select among predefined options***. Each option has a number value and a label. Choice columns can require either a single value or multiple values.
+- **Tables** - ***Items with properties***. Use standard tables or create a custom table.
+- **Columns:** - ***properties with a data type that are associated with and define a table*** 
+- **Relationships** -  ***how tables can be related to each other***. 
+- **Choice** -  ***a column with a control to  select among predefined options***. 
 
 ### User interface
 
 ***UI components determine interaction with the app***
 
-- **App** determine the ***app fundamentals***, like components, properties, the client type,  URL. ***App designer***
-- **Site map** specifies the ***navigation*** for your app. ***Site map designer***
-- **Forms** include a set of data entry columns for a given table. Can be ***used to create or edit an existing data row***. ***Form Designer***
-- **View** define ***how a list of rows for a specific table appears in your app***. A view defines the columns shown, the width of each column, the sorting behavior, and the default filters. ***View Designer***
+- **App** - ***App designer*** - ***App fundamentals, like components, properties, the client type, etc.***
+- **Site map** - ***Site map designer*** - ***Specify the app navigation.***
+- **Forms** - ***Form Designer*** - ***Include a set of data entry columns for a given table to create or edit data rows***. 
+- **View** - ***View Designer*** - ***How a list of rows for a specific table appears in the app***.
 
 ### Logic Components
 
-***The logic components*** ***determine the business processes, rules, and automation*** the app will have. These ***all use a specific designer*** for each type of process or rule.
+***The logic components determine the business processes, rules, and automation of the app***
 
-- **Business process flows** walk users through ***a standard business process***. Use a business process flow if you want everyone to handle customer service requests the same way. Made with ***Business process flow designer***
-- **Workflows** automate business processes without a user interface. Designers ***use workflows to initiate automation that does not require interaction***. Made with ***Workflow designer***
-- **Actions** are a type of process that lets you ***manually invoke behaviors***, including custom actions, directly from a workflow. Made with ***Process designer***.
-- **Business rules** ***apply rules or recommendation logic to a form to set field properties***. Like requirements, hide or show fields, validate data, and more. App designers use a simple interface to implement and maintain fast-changing and commonly used rules. Made with ***Business rule designer***
-- **Flows** Power Automate is a cloud-based service that lets you create ***automated workflows between apps and services*** to get notifications, sync files, collect data, and more. Requires ***Power Automate***
+- **Business process flows** -  ***Business process flow designer*** -  ***A standardized business process.***
+- **Workflows** - ***Workflow designer*** - ***Uses for automation that does not require interaction.***
+- **Actions** - ***Process designer*** - ***Manually invoked behaviors and custom actions.***
+- **Business rules** - ***Business rule designer*** - ***Apply rules or recommendation logic to set field properties***. 
+- **Flows** - ***Power Automate*** - ***Automate workflows between apps and services***
 
 ### Visualization Components
 
 ***These determine what type of data and reporting the app will show and have available*** 
 
-- **Charts** are ***individual graphical visualizations*** that can appear in a view or a form or that can be added to a dashboard. Made with ***Chart designer***
+- **Charts** -  ***Chart designer*** - ***Individual graphical visualizations for views, forms or dashboards.***
 
-- **Dashboards** show ***one or more graphical visualizations in one place*** that provide an overview of actionable business data. Made with ***Dashboard designer***
+- **Dashboards** - ***Dashboard designer*** - ***Show one or more graphical visualizations in one place***
 
-- **Embedded Power BI** ***adds embedded Power BI tiles and dashboards*** to your app. Power BI is a cloud-based service that provides business intelligence (BI) insight. Made using ***combination of chart designer, dashboard designer, and Power BI***
-
-  
+- **Embedded Power BI** - ***chart designer, dashboard designer, and Power BI*** - ***adds embedded Power BI tiles and dashboards*** 
 
 ## Design of model-driven apps
 
-***The*** ***primary design goal is to get the data model in order***. With that in place, ***connect Power Apps, and a model-driven app will be created*** for you from that model. ***Created with App Designer, choose the components to include*** in the app like entities, dashboards, business process flows, forms, and others; and ***then the app will be created for you***. This means you will need to ***spend more time understanding what your user needs than how it is going to look***.
+***The primary design goal is to get the data model in order. Created with App Designer, choose the components to include - like entities, dashboards, business process flows, forms, and others; and spend more time understanding what your user needs than how it is going to look***
 
 -----
 
@@ -98,12 +90,10 @@ In canvas apps, the app maker has total control over the app layout. In model-dr
 
 ***During the modelling process there are several things to consider***.
 
-- What ***type of data*** will the solution be storing and or collecting?
-- ***How will this data relate or coincide with the other data***?
+- ***The type of data the solution be storing and or collecting ***
+- ***How will this data relate or coincide with the other data***
 
-These questions are important when designing a model-driven application because of how model-driven applications function. Remember, ***model-driven applications use a metadata-driven architecture***. This means ***a large portion of the model-driven app is based on how the data is modeled***, and there is no need to write custom code to alter the app design.
-
-***When*** ***considering the data model, also consider data types***. When adding columns to a table in Microsoft Dataverse, ***the data type will determine how users enter and view that*** in your model-driven app. Choices show as dropdowns, currency shows with currency symbols, while decimal numbers don’t. These little changes in the table can have a profound effect on how your user experiences your app.
+***These considerations are important because model-driven applications use a metadata-driven architecture; a large portion of the model-driven app is based on how the data is modeled***, ***When considering the data model, also consider data type as the data type will determine how users enter and view that data.***. 
 
 > **Important**
 >
@@ -129,15 +119,15 @@ These questions are important when designing a model-driven application because 
 
 ### Business Logic
 
-***When incorporating business logic in your app, there are two primary options*** available. You can set **Business Rules** on your Microsoft Dataverse tables or you can build **Business Process Flows**.
+***When incorporating business logic in your app, there are two primary options:  Business Rules  or Business Process Flows.***
 
-**Business Rules,** you will ***define behaviors at the data layer***. This is great for setting conditions for when a field is required, setting a default value, or even showing or hiding a field based on criteria. An example could be a table for tracking expenses. You could have a column for type of travel and then build a business rule that dictates that if a user chooses automobile then the mileage field is required, else it is optional. This gives you the power to make sure you maintain data consistency in all scenarios.
+**Business Rules,** - ***define behaviors at the data layer***. This is great for setting conditions for when a field is required, setting a default value, or even showing or hiding a field based on criteria. An example could be a table for tracking expenses. You could have a column for type of travel and then build a business rule that dictates that if a user chooses automobile then the mileage field is required, else it is optional. This gives you the power to make sure you maintain data consistency in all scenarios.
 
-**Business process flows** are used to ***guide users through using your app***. These workflows can provide visuals on next steps based on the status of the data and facilitate other actions that you want to occur as the user uses the app. Business Process Flows let you bring automation to your app and make it more of a guided experience than just a place to enter data.
+**Business process flows** -  ***guide users through using your app***. These workflows can provide visuals on next steps based on the status of the data and facilitate other actions that you want to occur as the user uses the app. Business Process Flows let you bring automation to your app and make it more of a guided experience than just a place to enter data.
 
 ### Dashboards
 
-***A common output*** ***to visualize the data; use dashboards with custom filters and visual graphics to tie data together*** right in your app. When creating your dashboards, make sure they are simple for your users to consume without overwhelming them with all the data. Provide high-level snapshots of your data and allow them to use filters to dive deeper into the data if needed.
+***A common output to visualize the data; use dashboards with custom filters and visual graphics to tie data together*** right in your app. When creating your dashboards, make sure they are simple for your users to consume without overwhelming them with all the data. Provide high-level snapshots of your data and allow them to use filters to dive deeper into the data if needed.
 
 ### Additional third-party solutions and app accelerators
 
@@ -269,52 +259,44 @@ In this unit, you will create a model-driven app by using one of the standard en
 
 ## Controlling Security & Sharing
 
-***Power Apps use role-based security for sharing***. A security role includes privileges that define a set of actions that can be performed in the app. ***All app users must be assigned at least one security role***; from one or more predefined or custom security roles. ***Roles can be assigned to individual users or to teams***. When a user or a team is assigned to a role, that user or all members of that team are granted the set of privileges associated with the role.
+***Power Apps use role-based security for sharing. All app users must be assigned at least one security role. Roles can be assigned to individual users or to teams***. When a user or a team is assigned to a role, that user or all members of that team are granted the set of privileges associated with the role.
 
 ***To share an app, you must have the Environment Admin or System Admin role.***
 
 ### Create or set up a security role
 
-***Power Apps environments include predefined security roles***. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that is required to use the app. Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user's view of data and interactions with that data. ***One or more security roles must be assigned to the app***. The ***apps that users can use depend on the security roles*** they are assigned to. 
+***Power Apps environments include predefined security roles***. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that is required to use the app. Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role sets limits on the user's view of data and interactions with that data. One or more security roles must be assigned to the app. The apps that users can use depend on the security roles they are assigned to. 
 
-If an ***app is based on a custom table***. Because the table is custom, ***privileges must be explicitly specified*** before users can work in it. To do this, you can use either of the following approaches:
+*** An appsbased on a custom table requires explicitly specified privileges***
 
-- ***Expand an existing predefined security role*** so that it includes privileges for rows that are in the custom table.
-- ***Create a custom security role*** to manage privileges for users of the app.
+- **Expand an existing predefined security role** so that it includes privileges for rows that are in the custom table.
+- **Create a custom security role** to manage privileges for users of the app.
 
 ### Predefined Roles
 
 ***The following predefined roles are available with a Power Apps environment. Unless otherwise noted, all the privileges have global scope.***
 
-- **Environment Maker**
+- **Environment Maker** - Privileges: None
 
-  Privileges: None
+  ***This role can create new resources that are associated with an environment***, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Power Automate. 
 
-  This role ***can create new resources*** that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Power Automate. But these users ***can't access the data*** in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/).
+  ***But these users can't access the data*** in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/).
 
-- **System Administrator**
+- **System Administrator** - Privileges:  Create, Read, Write, Delete, Customize
 
-  Create, Read, Write, Delete, Customize
+  ***This role has full permission to customize or administer the environment***, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/privileges-required-customization)
 
-  This role has ***full permission to customize or administer the environment***, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/privileges-required-customization)
+- **System Customizer** - Privileges: Create (self), Read (self), Write (self), Delete (self), Customizations
 
-- **System Customizer**
+  ***This role has full permission to customize the environment. But can view rows only for environment tables that they create***. To learn more, see [Privileges required for customization](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/privileges-required-customization).
 
-  Create (self), Read (self), Write (self), Delete (self), Customizations
+- **Microsoft Dataverse User** - Privileges: Read, Create (self), write (self), delete (self)
 
-  This role has full permission to customize the environment. But users who have this role ***can view rows only for environment tables that they create***. To learn more, see [Privileges required for customization](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/privileges-required-customization).
+  ***This role can run an app in the environment and perform common tasks for the rows they own.***
 
-- **Microsoft Dataverse User**
+- **Delegate** - Privileges: Act on behalf of another user
 
-  Read, Create (self), write (self), delete (self)
-
-  Users who have this role ***can run an app in the environment and perform common tasks for the rows they own***.
-
-- **Delegate**
-
-  Act on behalf of another user
-
-  This role lets code run as or impersonate another user. This role is ***typically used with another security role to provide access to rows***. To learn more, see [Impersonate another user](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/impersonate-another-user).
+  ***This role lets code run as or impersonate another user; typically used with another security role to provide access to rows.*** To learn more, see [Impersonate another user](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/impersonate-another-user).
 
 ### Share the link to your app
 
