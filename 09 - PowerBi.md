@@ -1,8 +1,8 @@
 # Power BI
 
-***Power BI can build reports and dashboards with interactive visualizations to drive business with actionable insights.***
+***Power BI can build reports and dashboards with interactive visualizations to drive business with actionable insights. Power BI takes the intimidation and hassle out of data analysis and visualization.*** 
 
-The business world is increasingly data driven. Small and large businesses alike use data to make decisions about sales, hiring, goals, and all areas for which they have data. While most businesses have access to data of one type or another, it can be intimidating to try to understand without a background in data analytics or statistics. Even if you do understand the data, a challenge may arise in displaying the data in an easy to understand way and communicating it to other relevant people. ***Power BI takes the intimidation and hassle out of data analysis and visualization***. 
+The business world is increasingly data driven. Small and large businesses alike use data to make decisions about sales, hiring, goals, and all areas for which they have data. While most businesses have access to data of one type or another, it can be intimidating to try to understand without a background in data analytics or statistics. Even if you do understand the data, a challenge may arise in displaying the data in an easy to understand way and communicating it to other relevant people. 
 
 ## What is Power BI
 
@@ -14,9 +14,9 @@ The business world is increasingly data driven. Small and large businesses alike
 
 **Power BI consists of:**
 
-- **Power BI Desktop** - Microsoft Windows desktop application
-- **Power BI service** - an online SaaS (Software as a Service)
-- **Mobile Power BI apps** that are available on phones and tablets.
+- **Power BI Desktop** - ***Windows desktop application***
+- **Power BI service** - ***an online SaaS (Software as a Service)***
+- **Mobile Power BI apps** - ***for phones and tablets.***
 
 ***These three elements let people create, share, and consume business insights in the way that serves them, or their role, most effectively.***
 
@@ -28,7 +28,7 @@ The business world is increasingly data driven. Small and large businesses alike
 
 ### Capacities
 
-***Capacities are a core Power BI concept representing a set of resources used to host and deliver your Power BI content.*** ***Capacities are*** ***either shared or dedicated***. A shared capacity is shared with other Microsoft customers, while a dedicated capacity is fully committed to a single customer. ***Dedicated capacities require a subscription***. By default, workspaces are created on a shared capacity.
+***Capacities are a core Power BI concept representing a set of resources used to host and deliver your Power BI content.*** ***Capacities are*** ***either shared or dedicated***. ***Dedicated capacities require a subscription***. A shared capacity is shared with other Microsoft customers, while a dedicated capacity is fully committed to a single customer.  By default, workspaces are created on a shared capacity.
 
 ### Workspaces
 
@@ -36,26 +36,28 @@ The business world is increasingly data driven. Small and large businesses alike
 
 #### Two types:
 
-- **My workspace** is the ***personal workspace for any Power BI customer to work with their own content***. Only you have access to your My workspace. You can share dashboards and reports from your My Workspace. If you want to collaborate on dashboards and reports, or create an app, then you want to work in a workspace.
-- **Workspaces** are ***used to collaborate and share content with colleagues***. You can add colleagues to your workspaces and collaborate on dashboards, reports, and datasets. With one exception, all workspace members need Power BI Pro licenses.
+- **My workspace** - ***personal workspace for any Power BI customer to work with their own content***. Only you have access to your My workspace. You can share dashboards and reports from your My Workspace. If you want to collaborate on dashboards and reports, or create an app, then you want to work in a workspace.
+- **Workspaces** - ***used to collaborate and share content with colleagues***. You can add colleagues to your workspaces and collaborate on dashboards, reports, and datasets. With one exception, all workspace members need Power BI Pro licenses.
 
 ***Workspaces are also the places where you create, publish, and manage apps for your organization***. Think of workspaces as staging areas and containers for the content that will make up a Power BI app. So what is an *app*? An app is a collection of dashboards and reports built to deliver key metrics to the Power BI consumers in your organization. Apps are interactive, but consumers cannot edit them. App consumers, the colleagues who have access to the apps, do not necessarily need Pro licenses.
 
 ### Datasets
 
-***A dataset is a collection of data that you import or connect to***. Power BI lets you connect to and import all sorts of datasets and bring all of it together in one place. ***Datasets can also source data from dataflows***.
+***A dataset is a collection of data that you import or connect to***. ***Datasets can also source data from dataflows***. Power BI lets you connect to and import all sorts of datasets and bring all of it together in one place. 
 
 ***Datasets are associated with workspaces and a single dataset can be part of many workspaces***. When you open a workspace, the associated datasets are listed under the Datasets tab. Each listed dataset represents a collection of data, for example, a dataset can contain data from an Excel workbook on OneDrive, an on-premises SSAS tabular dataset, and/or a Salesforce dataset. There are many different data sources supported. Datasets added by one workspace member are available to the other workspace members with an *admin*, *member*, or *contributor* role.
 
 #### Shared Datasets
 
-***Business intelligence is a collaborative activity.*** It's important to establish standardized datasets that can be the 'one source of truth.' ***Expert data modelers can create and share optimized datasets, report creators can start with those datasets to build accurate reports.*** Your organization can have consistent data for making decisions, and a healthy data culture. To consume these shared datasets just choose Power BI datasets when creating your Power BI report.
+***Business intelligence is a collaborative activity.*** ***Expert data modelers can create and share optimized datasets, report creators can start with those datasets to build accurate reports.*** It's important to establish datasets that can be the 'one source of truth.' Your organization can have consistent data for making decisions, and a healthy data culture. To consume these shared datasets just choose Power BI datasets when creating your Power BI report.
 
 ### Reports
 
 ***A Power BI report is one or more pages of visualizations such as line charts, maps, and treemaps. Visualizations are also called visuals.*** You can create reports from scratch within Power BI, import them with dashboards that colleagues share with you, or Power BI can create them when you connect to datasets from Excel, Power BI Desktop, databases, and SaaS applications. For example, when you connect to an Excel workbook that contains Power View sheets, Power BI creates a report based on those sheets. And when you connect to a SaaS application, Power BI imports a pre-built report.
 
-***There are two modes to view and interact with reports***: **Reading view** and **Editing view**. When you open a report, it opens in Reading view. If you have edit permissions, then you see Edit report in the upper-left corner, and you can view the report in Editing view. ***If a report is in a workspace, everyone with an admin, member, or contributor role can edit it.*** They have access to all the exploring, designing, building, and sharing capabilities of Editing view for that report. The people they share the report with can explore and interact with the report in Reading view.
+***There are two modes to view and interact with reports***: **Reading view** and **Editing view**. When you open a report, it opens in Reading view. If you have edit permissions, then you see Edit report in the upper-left corner, and you can view the report in Editing view. 
+
+***If a report is in a workspace, everyone with an admin, member, or contributor role can edit it.*** They have access to all the exploring, designing, building, and sharing capabilities of Editing view for that report. The people they share the report with can explore and interact with the report in Reading view.
 
 ***When you open a workspace, the associated reports are listed under the Reports tab. Each listed report represents one or more pages of visualizations based on only one of the underlying datasets.*** To open a report, select it. When you open an app, you are presented with a dashboard. To access an underlying report, select a dashboard tile (more on tiles later) that was pinned from a report. Keep in mind that not all tiles are pinned from reports, so you may have to click a few tiles to find a report.
 
@@ -74,7 +76,7 @@ The business world is increasingly data driven. Small and large businesses alike
 
 ### Template Apps
 
-***The new Power BI template apps enable Power BI partners to build Power BI apps with little or no coding and deploy / publish them to any Power BI customer.*** As a Power BI partner, you create a set of out-of-the-box content for your customers and publish it yourself. You can build template apps that allow your customers to connect within their own accounts. As domain experts, they can unlock the data in a way that is easy for their business users to consume. ***Template apps are submitted to the Partner center to become publicly available in the [Power BI Apps marketplace](https://app.powerbi.com/getdata/services) and on [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi).*** 
+***The new Power BI template apps enable Power BI partners to build Power BI apps with little or no coding and deploy / publish them to any Power BI customer.*** ***Template apps are submitted to the Partner center to become publicly available in the [Power BI Apps marketplace](https://app.powerbi.com/getdata/services) and on [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi).*** As a Power BI partner, you create a set of out-of-the-box content for your customers and publish it yourself. You can build template apps that allow your customers to connect within their own accounts. As domain experts, they can unlock the data in a way that is easy for their business users to consume. 
 
 ------
 
@@ -113,12 +115,12 @@ When the installation finishes successfully, a notification tells you that your 
 
 ## Data modeling and visualizations
 
-After launching Power BI Desktop, the **Getting Started** dialog box will appear, which provides useful links to forums, blogs, and introductory videos. 
-
 ------
 
 <details>
 <summary>Power BI Desktop Interface</summary>
+
+> After launching Power BI Desktop, the **Getting Started** dialog box will appear, which provides useful links to forums, blogs, and introductory videos. 
 
 In Power BI Desktop, you will begin to build reports in the **Report** view. You will be working in five main areas:
 
@@ -138,7 +140,7 @@ In Power BI Desktop, you will begin to build reports in the **Report** view. You
 
 ### Visualizations in Power BI
 
-Below are just some of the many different types of visualizations that can be added to Power BI reports, specified in Q&A, and pinned to dashboards.
+***Below are just some of the many different types of visualizations that can be added to Power BI reports, specified in Q&A, and pinned to dashboards.***
 
 - **Area charts** Basic (Layered) and Stacked, based on the line chart with the area between the axis and line filled in.
 
@@ -170,7 +172,7 @@ Below are just some of the many different types of visualizations that can be ad
 
 #### Custom visuals - AppSource
 
-***Microsoft and community members contribute Power BI visuals for public benefit, and publish them to the [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).*** You can download these visuals and add them to your Power BI reports. ***Microsoft has tested and approved these Power BI visuals for functionality and quality.*** AppSource connects millions of users of products such as Microsoft 365, Azure, Dynamics 365, Cortana, and Power BI, to solutions that help them get work done more efficiently and insightfully than before.
+***Microsoft and community members contribute Power BI visuals for public benefit, and publish them to the [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).*** ***You can download these visuals and add them to your Power BI reports.*** ***Microsoft has tested and approved these Power BI visuals for functionality and quality.*** AppSource connects millions of users of products such as Microsoft 365, Azure, Dynamics 365, Cortana, and Power BI, to solutions that help them get work done more efficiently and insightfully than before.
 
 - By using Power BI visuals created with our SDK, you may be importing data from, or sending data to, third party or other services located outside of your Power BI tenant’s geographic area, compliance boundary, or national cloud instance.
 - Power BI certified visuals are visuals in the AppSource meet certain specified code requirements that the Microsoft Power BI team has tested and approved. The tests are designed to check that the visual doesn't access external services or resources.
@@ -197,7 +199,7 @@ Below are just some of the many different types of visualizations that can be ad
 
 ### Buttons in Power BI
 
-***Using buttons in Power BI lets you create reports that behave like apps***, and thereby, create an engaging environment so users can hover, click, and further interact with Power BI content. ***You can add buttons to reports in Power BI Desktop and in the Power BI service***. When you share your reports in the Power BI service, they provide an app-like experience for your users.
+***Add buttons to reports in Power BI Desktop and in the Power BI service to create reports that behave like apps***, and thereby, create an engaging environment so users can hover, click, and further interact with Power BI content.
 
 ### Transform data
 
@@ -207,13 +209,15 @@ Below are just some of the many different types of visualizations that can be ad
 
 ### Aggregates in the Power BI service
 
-***To mathematically combine values in your data is called aggregating.*** ***The result is an aggregate***.
+***To mathematically combine values in your data is called aggregating. he result is an aggregate. The type of data determines how, and whether, Power BI can aggregate it.***
 
-When Power BI service and Power BI Desktop create visualizations, they may aggregate your data. Often the aggregate is just what you need, but other times you may want to aggregate the values in a different way. For example, a sum versus an average. There are several different ways to manage and change the aggregate Power BI uses in a visualization. First, let's take a look at data *types* because ***the type of data determines how, and whether, Power BI can aggregate it.***
+When Power BI service and Power BI Desktop create visualizations, they may aggregate your data. Often the aggregate is just what you need, but other times you may want to aggregate the values in a different way. For example, a sum versus an average. There are several different ways to manage and change the aggregate Power BI uses in a visualization. First, let's take a look at data *types* because 
 
 #### Types of data
 
-***At the most basic level, the data is either numeric or it isn't***. Power BI can aggregate numeric data using a sum, average, count, minimum, variance, and much more. The service can even aggregate textual data, often called *categorical* data. If you try to ***aggregate a categorical field by placing it in a numeric-only bucket*** like **Values** or **Tooltips**, Power BI will count the occurrences of each category or count the distinct occurrences of each category. Special types of data, like dates, have a few of their own aggregate options: earliest, latest, first, and last.
+***At the most basic level, the data is either numeric or it isn't***. Power BI can aggregate numeric data using a sum, average, count, minimum, variance, and much more. The service can even aggregate textual data, often called *categorical* data. 
+
+***Aggregate a categorical field by placing it in a numeric-only bucket*** like **Values** or **Tooltips**, Power BI will count the occurrences of each category or count the distinct occurrences of each category. Special types of data, like dates, have a few of their own aggregate options: earliest, latest, first, and last.
 
 #### Ways to aggregate your data
 
@@ -232,7 +236,9 @@ When Power BI service and Power BI Desktop create visualizations, they may aggre
 
 ### Administration
 
-***Power BI administration is the management of a Power BI tenant***, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources.  Power BI is designed for self-service business intelligence. ***The administrator is the guardian of data, processes, and policies in the Power BI tenant.*** A Power BI administrator is a key member of a team that includes BI developers, analysts, and other roles. The administrator can help support an organization to make sure that critical goals are met.
+***Power BI administration is the management of a Power BI tenant***, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources.  Power BI is designed for self-service business intelligence. 
+
+***The administrator is the guardian of data, processes, and policies in the Power BI tenant.*** A Power BI administrator is a key member of a team that includes BI developers, analysts, and other roles. The administrator can help support an organization to make sure that critical goals are met.
 
 ## Summary
 
