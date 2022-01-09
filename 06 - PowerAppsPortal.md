@@ -1,17 +1,17 @@
 # PL-900 Portals
 
-Power Apps portals provide a great way to allow internal and external audiences to view and interact with data from Microsoft Dataverse or Dynamics 365 with a branded, personalized, self-service experience. Portals also allow you to set authentication requirements, customize data for each user, and allow users to submit their information privately with straightforward admin controls.
+***Portals are websites that allow internal and external audiences to view and interact with data from Dataverse or Dynamics 365 with a branded, personalized, self-service experience.*** 
 
-Portal capabilities empower online consumers who prefer to find answers on their own through self-service and community options. Portals help you provide an organized, searchable knowledge base to deliver consistent, up-to-date answers and community experience for peer-to-peer support and direct interaction with your subject matter experts. Additionally, portals provide simple navigation with seamless transitions between self and assisted support.
+Portals also allow you to set authentication requirements, customize data for each user, and allow users to submit their information privately with straightforward admin controls. Portal capabilities empower online consumers who prefer to find answers on their own through self-service and community options. Portals help you provide an organized, searchable knowledge base to deliver consistent, up-to-date answers and community experience for peer-to-peer support and direct interaction with your subject matter experts. Additionally, portals provide simple navigation with seamless transitions between self and assisted support. Consider a scenario where your business is already using Power Apps. 
 
-Consider a scenario where your business is already using Power Apps. The following are additional capabilities that Power Apps portals can deliver:
+**Portals can deliver:**
 
 - **Provide self-service support** - When your business is growing, rather than having to employ extra staff in call centers, you could use Power Apps portals to add self-service capabilities to your website so that your customers can search knowledge articles, engage with other customers, find answers, and create support cases when needed (that go directly into Dynamics 365 Customer Service), all without a single interaction from your resources.
-- **Build a sales pipeline** - When a lead fills out a **Contact Us** form on your company website, this information is recorded in Dynamics 365 Sales where the record can become part of your sales pipeline automatically.
+- **Build a sales pipeline** - When a lead fills out a Contact Us form on your company website, this information is recorded in Dynamics 365 Sales where the record can become part of your sales pipeline automatically.
 - **Empower employees** - When an employee needs a new computer, they can fill out an online form, where the information will be recorded in Dataverse so the helpdesk staff can immediately access and process this information.
 - **Engage mobile workforce** - Empower agents on any device, wherever they work. Field technicians can process and complete work orders in the field, instantly updating Dynamics 365 Field Service.
 
-Portals are built on top of Microsoft Dataverse. This architecture comes with a major benefit. All the differentiating features of model-driven Power Apps are the features of Power Apps portals as well, including:
+***All the differentiating features of model-driven apps are the features of portals as well, including:***
 
 - Centralized management
 - Common Data Model
@@ -26,7 +26,7 @@ Portals are built on top of Microsoft Dataverse. This architecture comes with a 
 
 ## Getting Started
 
-Businesses that have Dynamics 365 or a custom Microsoft Dataverse solution already in place can quickly build portals that are more secure and build their entire website, all without requiring developers. A portal is not automatically provisioned when a new Dataverse environment is created. You will need to provision a Power Apps portal and determine the name, default URL, language, and template.
+***Businesses that have Dynamics 365 or a Dataverse solution already in place can quickly build portals and build their entire website without requiring developers.*** A portal is not automatically provisioned when a new Dataverse environment is created. You will need to provision a Power Apps portal and determine the name, default URL, language, and template.
 
 > **Important**
 >
@@ -34,41 +34,25 @@ Businesses that have Dynamics 365 or a custom Microsoft Dataverse solution alrea
 
 ### Templates
 
-When provisioning a Power Apps portal, the most important choices to consider are the audience, workload, and choosing a specific portal template that would best align with the business requirements. Several portal templates are available that can be provisioned. These templates will accelerate the configuration of portals based on the intended audience and workload.
+***When provisioning a Power Apps portal, the most important choices to consider are the audience, workload, and choosing a specific portal template that would best align with the business requirements***. 
 
-If you are building a custom business application by using Microsoft Dataverse without Dynamics 365 apps enabled, your only choice is the **Portal from blank** option. If you are using Microsoft Dynamics 365 apps such as Dynamics 365 Sales or Dynamics 365 Service, you have a choice of five additional portal templates:
+**Portal templates:**
 
-- **Community portal**
+- **Community portal** - ***Partner, Customer*** - ***Community features such as forums, ideas, blogs, and case management.***
 
-  Partner, Customer
+- **Customer self-service portal** - ***Partner, Customer*** - ***Users can search knowledge articles, submit cases, and participate in discussion forums to resolve issues.***
 
-  Choose this option to provision a portal that is focused on an online community. This portal will contain features such as forums, ideas, blogs, and case management.
+- **Employee self-service portal** - ***Allow employees to access a centralized knowledge article and to submit cases***.
 
-- **Customer self-service portal**
+- ***Partner portal** - **External partners can manage and collaborate on accounts and opportunities.*** 
 
-  Partner, Customer
+- **Customer portal** - ***Access to Supply Chain Management data by using dual-write Dataverse tables and is for Enterprise B2B***
 
-  This option provides the ability for portal users to search knowledge articles, submit cases, and participate in discussion forums to resolve issues.
-
-- **Employee self-service portal**
-
-  This portal allows employees to access a centralized knowledge article and to also submit cases.
-
-- **Partner portal**
-
-  Choose this option to build a portal where external partners can manage and collaborate on accounts and opportunities. Add-ons are available for Dynamics 365 Field Service or Dynamics 365 Project Service.
-
-- **Customer portal**
-
-  The Dynamics 365 Supply Chain Management Customer portal is a template that provides portal access to Dynamics 365 Supply Chain Management data by using dual-write Microsoft Dataverse tables and is meant for Enterprise B2B
-
-- **Portal from blank**
-
-  The **Portal from blank** option is meant for unique line-of-business scenarios where the other templates are not a good fit. The portal can be configured to address a variety of requirements. If **Portal from blank** is provisioned within a Microsoft Dataverse environment, specific features from the other portals can be incorporated into the portal later.
+- **Portal from blank** - ***Solution for unique scenarios where the other templates are not a good fit. Can be configured to address a variety of requirements.*** ***If D 365 apps is NOT enabled this is the only option.*** If Portal from blank is provisioned within a Dataverse environment, specific features from the other portals can be incorporated into the portal later. 
 
 ### Provision a portal
 
-Only one Power Apps portals can be provisioned for each Microsoft Dataverse environment.
+***Only one portals can be provisioned for each Dataverse environment.***
 
 <details>
  <summary>Steps to provision a starter portal</summary>
@@ -90,7 +74,7 @@ This section describes the core components
 
 ### Power Apps portals Studio
 
-You can use Power Apps portals Studio to create and customize your website. It contains various options to add and configure webpages, components, forms, and lists.
+***Power Apps portals Studio is used to create and customize the website. It contains various options to add and configure webpages, components, forms, and lists.***
 
 <details>
  <summary>Anatomy of Power Apps portals Studio</summary>
@@ -113,15 +97,15 @@ You can use Power Apps portals Studio to create and customize your website. It c
 
 ### Webpages
 
-Most of a portal's content is represented by webpages. A webpage is a document that is identified by a unique URL in a website. Through parent and child relationships to other webpages, webpages form the hierarchy of a website, that is, its site map. Webpages can be added and edited by using the Portal Studio, the portal front-side editor, or directly in Microsoft Dataverse by using the Portal Management app.
+***Most of a portal's content is represented by webpages***. A webpage is a document that is identified by a unique URL in a website. Through parent and child relationships to other webpages, webpages form the hierarchy of a website, that is, its site map. Webpages can be added and edited by using the Portal Studio, the portal front-side editor, or directly in Microsoft Dataverse by using the Portal Management app.
 
 ### Page templates
 
-A webpage row does not define how the page looks when it is rendered on the portal. Instead, it is linked to the **Page template** row that defines the layout and the behavior. Think of the webpage as the exact URL and the Page template as the blueprint for displaying the content.
+***Page templates are the blueprint for displaying the content of a webpage located at an exact URL.***
 
 ### Content snippets
 
-Content snippets are reusable fragments of editable content that can be placed within a web template. Using snippets allows for targeted editing of parts of a page without affecting the overall content. Content snippets can include plain text, HTML layout, or template processing instructions, which helps enable dynamic content. 
+***Content snippets are reusable fragments of editable content that can be placed within a web template***. Using snippets allows for targeted editing of parts of a page without affecting the overall content. Content snippets can include plain text, HTML layout, or template processing instructions, which helps enable dynamic content. 
 
 <details>
  <summary>Mobile Header Snippet</summary>
@@ -138,17 +122,15 @@ Snippets can be edited by using Portal Studio and Microsoft Dataverse rows by us
 
 ### Table lists and table forms
 
-The strength of Power Apps portals is the ability to interact with information and data that is stored in Microsoft Dataverse. Table lists and table forms are used in Power Apps portals to define what data should render on the portal from Microsoft Dataverse, such as a list of rows from a table or a form to capture and display data for a specific row.
+***The strength of portals is the ability to interact with information and data that is stored in Dataverse. Table lists and table forms are used in portals to define what data should be rendered.*** Such as a list of rows from a table or a form to capture and display data for a specific row.
 
-A webpage row can be linked to a **table list** or an **table form**. The linked list or form will be used by the template to render the page layout with data from Microsoft Dataverse, such as a list of all *Active Contacts* to form the above *Member Directory* list. In the **Properties** pane on the right of the above example, you see that this table list was created to display the *Active Contacts* view from the *contacts* table.
+***A webpage row can be linked to a "table list" or a "table form". The linked list or form will be used by the template to render the page layout with data from Dataverse***, such as a list of all *Active Contacts* to form the above *Member Directory* list. 
 
-Table lists can include functionality like filtering and sorting and can also have actions associated with them to enable Create/Edit/Read abilities and to trigger workflows. With this, App Makers can determine what will happen when a user opens a row from a list, such as taking them to a form displaying the details of the selected row.
-
-In the above example, the App Maker has dictated that the user will be taken to the **Table Form** if they want to *create* or view *details* for a specific row from a list.
+***"Table lists" can include functionality like filtering, sorting, and also actions associated with them to enable Create/Edit/Read abilities and to trigger workflows.*** With this, App Makers can determine what will happen when a user opens a row from a list, such as taking them to a form displaying the details of the selected row.
 
 ## Themes
 
-In Power Apps portals, the **Enable basic theme** feature is set to **Off**. When you turn on this feature, you can use default themes called **Presets**. You can also create copies of the preset themes for additional customization.
+***In portals by default the "Enable basic theme feature" is disabled - set to "Off". When you turn on this feature, you can use default themes called Presets. Create copies of the preset themes for additional customization.***
 
 <details>
  <summary>Enabling a Theme</summary>
@@ -171,7 +153,7 @@ In Power Apps portals, the **Enable basic theme** feature is set to **Off**. Whe
 
 ### Changing Themes
 
-You can set any existing theme in your portal to the default theme.
+***Any existing theme in your portal can be set to be the default theme.***
 
 <details>
  <summary>How to set a theme</summary>
@@ -197,7 +179,7 @@ The selected theme is applied to your portal.
 
 ### Create a new theme
 
-It is also possible to create a new theme
+***It is also possible to create a new theme.***
 
 <details>
  <summary>Guide to Create a new Theme</summary>
@@ -217,7 +199,7 @@ It is also possible to create a new theme
 
 ### Edit theme details
 
-You can update theme name, description, color, and other typography settings in Power Apps Studio.
+***It is possible to edit the theme name, description, color, and other typography settings.***
 
 <details>
  <summary>Editing a Theme</summary>
@@ -242,19 +224,19 @@ You can update theme name, description, color, and other typography settings in 
 
 ## Security
 
-Users of Power Apps portals are tracked in Microsoft Dataverse as contacts. The Portal Management model-driven app provides access to the contact table and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal. All interactions and actions that a portal user takes (for example, leaving a comment on a page) are tied to their contact row in Microsoft Dataverse.
+***Portals users are tracked in Dataverse as contacts. All interactions and actions are tied to that contact row.*** The Portal Management model-driven app provides access to the contact table and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal. 
 
 ### Authentication
 
-Portal users can authenticate by using the following methods:
+***Administrators can choose to enable or disable any combination of authentication options through "portal Authentication Settings"***.
 
-- **Local authentication** - Basic authentication with usernames and passwords are stored in the Microsoft Dataverse contact row internally.
-- **External authentication** - Credentials and password management are handled by other identity providers. Supported authentication providers include:
+**Portal users can authenticate by using the following methods:**
+
+- **Local authentication** - ***Authentication with usernames and passwords stored in the Dataverse contact row***.
+- **External authentication** - ***Credentials and password management are handled by other identity providers.*** 
   - OAuth2 (Microsoft, Twitter, Facebook, Google, LinkedIn, Yahoo)
   - Open ID (Azure Active Directory, Azure Active Directory B2C)
   - WS-Federation and SAML 2.0 (used for integration with on-premises Active Directory and other identity services)
-
-Portal administrators can choose to enable or disable any combination of authentication options through portal **Authentication Settings**.
 
 > **Important**
 >
@@ -262,16 +244,13 @@ Portal administrators can choose to enable or disable any combination of authent
 
 ### Authorization
 
-After the user is authenticated and associated with a contact, Power Apps portals use numerous tables to define authorization, that is, what a user is allowed to do. Selecting **Share** from the portal app options will provide information on how to share the portal app with internal and external users.
+***After authentication, "portals" use numerous tables to define authorization. Web roles allow an administrator to control user access to portal content and Dataverse rows. A contact might be assigned to one or more web roles at a time. In that case access rules and permissions of individual roles are combined.*** One of the web roles in the portal can be marked as "*Anonymous*" and all of the others are "*Authenticated*". If a user is not signed in, they will view the portal with the Anonymous web role permissions, which should be the most restrictive permissions.
+
+**A web role can be associated with the following table rows:**
+
+- **Website permissions** - ***Define the (if any) front-side editing permissions.***
+- **Webpage access rules** - ***Define what pages are visible to a role and what actions can be taken.***
+- **Table permissions** - ***Define what access a role has to individual Dataverse tables.***
 
 
-**Web roles** allow an administrator to control user access to portal content and Microsoft Dataverse rows. A web role can be associated with the following table rows:
-
-- **Website permissions** - Define what (if any) front-side editing permissions that a web role should have.
-- **Webpage access rules** - Define what pages are visible to a web role and what actions can be taken.
-- **Table permissions** - Define what access a web role has to individual Microsoft Dataverse tables.
-
-A portal contact might be assigned to one or more web roles at a time. Access rules and permissions of individual roles are combined to determine the resulting permissions set.
-
-One of the web roles in the portal can be marked as **Anonymous** and all of the others are **Authenticated**. These roles allow you to apply permissions and access rules to all portal users based on whether they are signed in. If a user is not signed in, they will view the portal with the Anonymous web role permissions, which should be the most restrictive permissions.
 
