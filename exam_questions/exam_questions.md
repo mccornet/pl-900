@@ -293,7 +293,130 @@ How should you advise the user?
 - C. Subscribe to the dashboard and follow the email link.
 - D. Navigate to the report used by the dashboard.
 
+> **Correct Answer:** *D* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/15/#)
+> Reference:
+> https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-analyze-in-excel
+
+### 61
+
+You are a district manager for a large retail company. You want to provide sales managers with deeper sales insights to ensure that they can make more informed decisions for their stores. Store managers must be able to view data in near real-time. You need to create and share a Power BI dashboard that can be used by the store managers. Which tools can you use? To answer, drag the appropriate reporting types to the correct requirements. Each reporting type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+![img](0007400001.png)
 
 
 
-continue here: [PL-900 Exam – Free Actual Q&As, Page 16 | ExamTopics](https://www.examtopics.com/exams/microsoft/pl-900/view/16/)
+> See 51: Visualizations should be only in BI Service
+
+### 61
+
+A company uses Microsoft Excel workbooks to store consolidated sales data. Workbooks are stored on OneDrive for Business. Match each Power BI feature to its requirement. To answer, drag the appropriate features from the column on the left to its requirement on the right. Each option may be used once, more than once, or not at all.
+
+![img](0007500001.png)
+
+> **Correct Answer:** *![img](0007500002.png)*
+> Reference:
+> https://docs.microsoft.com/en-us/power-bi/consumer/mobile/mobile-reports-in-the-mobile-apps https://docs.microsoft.com/en-us/power-bi/create-reports/power-bi-tutorial-q-and-a#:~:text=Sometimes%20the%20fastest%20way%20to,data%20in%20your%
+> 20own%20words.&text=The%20second%20part%20shows%20what,service%20or%20Power%20BI%20Desktop.
+
+### 63
+
+A company plans to display support call metrics on a screen that is visible to all call center staff.
+You need to recommend solutions to meet the company's requirements. What should you recommend? To answer, drag the appropriate components to the correct requirements. Each component may be used once, more than once, or not at all. 
+
+![img](0007600001.png)
+
+> **Correct Answer:** *![img](0007600002.png)*
+> Reference:
+> https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboard-tiles https://docs.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-treemaps
+>
+> COMMUNITY DISCUSSION, Either Page or Direct Query for the last one
+
+### 64
+
+You create a Power BI dashboard that displays Common Data Model data.
+You need to share the Power BI dashboard with coworkers and allow the coworkers to collaborate.
+What are two possible ways to achieve the goal? Each correct answer presents a complete solution.
+
+- A. Create a Power BI workspace and grant coworkers permissions.
+- B. Publish the dashboard as an app to your coworkers.
+- C. Export the data to Microsoft Excel. Make required changes and then re-import the data.
+- D. Create a Power Automate flow to export the data into a SQL Server database.
+
+> **Correct Answer:** *AB* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/16/#)
+> Reference:
+> https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-create-the-new-workspaces
+
+### 65
+
+You are using Dynamics 365 Sales.
+You need to create a Power BI report that includes customer office locations. The City and State columns must be combined to form one column on the report.
+What should you do?
+
+- A. Use Power Query Editor to merge columns.
+- B. Import the data.
+- C. Export data to Microsoft Excel.
+- D. Create a view.
+
+> **Correct Answer:** *A* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/17/#)
+> Reference:
+> https://support.microsoft.com/en-us/office/merge-columns-power-query-80ec9e1e-1eb6-4048-b500-d5d42d9f0a8d
+
+### 66
+
+A company needs to create a series of mobile applications to empower their field engineers to accomplish several tasks with varying degrees of complexity. Match each app type to its definition. To answer, drag the appropriate app type from the column on the left to its definition on the right. Each app type may be used once, more than once, or not at all.
+
+![img](0007800001.jpg)
+
+
+
+> **Correct Answer:** *![img](0007800002.jpg)*
+> Box 1: model-driven -
+> Both model-driven and canvas apps allow you to easily build business apps. They both share access to the Common Data Service providing standard and custom entities. Model-driven apps start with your data model building up from the shape of your core business data and processes in the Common Data
+> Service to model forms, views, and other components. Model-driven apps automatically generate great UI that is responsive across devices.
+>
+> Box 2: canvas -
+> Canvas apps start with your user experience, crafting a highly tailored interface with the power of a blank canvas and connecting it to 200 data sources. Canvas apps can be built for web, mobile, and tablet applications.
+> Reference:
+> https://powerapps.microsoft.com/sv-se/blog/introducing-model-driven-apps/
+
+### 67
+
+A user is starting to learn about Power Apps. Which objects should you use? To answer, select the appropriate options in the answer area.
+
+![img](0007900001.png)
+
+> **Correct Answer:** *![img](0008000001.png)*
+> Reference:
+> https://docs.microsoft.com/en-us/powerapps/powerapps-overview https://docs.microsoft.com/en-us/power-automate/getting-started
+
+
+
+### 68
+
+What is a benefit of deploying Microsoft 365 and Dynamics 365 apps in the same tenant?
+
+- A. You do not need to manually back up data.
+- B. Both will use the same time zone.
+- C. You can use Power BI to display data that comes from both environments.
+- D. You can implement Single Sign-On (SSO).
+
+
+
+> **Correct Answer:** *C* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/17/#)
+> Reference:
+> https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi
+>
+> *Community vote distribution*: D
+>
+> "To use data from different sources, PBI don't need to be on same tenant, because you can use them just with different credentials for each of them. In my opinion D (SSO) then."
+
+
+
+
+
+
+
+
+
+
+
