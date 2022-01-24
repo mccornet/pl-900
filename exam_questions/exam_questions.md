@@ -12,45 +12,149 @@ You have a Power Apps app. You create a new version of the app and then publish 
 - C. three
 - D. four
 
-
-
-> **COMMUNITY DISCUSSION**
+> **Discussion**
 >
-> A: Key point is that the customer does the restoration. So the developper would not see another version. If a developper would do the restoration  it should show up as a seperate version. See 17
+> Answer is A
 >
-> 
+> Key point is that the customer does the restoration. So the developer would not see another version. If a developer would do the restoration  it should show up as a separate version. 
 >
-> **Correct Answer:** *C* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/#)
+> Also See 17
+>
+> -----
+>
+> **Site Answer:** *C* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/#)
 > Restore a canvas app to a previous version in PowerApps.
-> \1. Open powerapps.com, and then click or tap Apps in the left navigation bar.
-> \2. Near the right edge, click or tap the info icon for the app that you want to restore.
-> \3. Click or tap the Versions tab, and then click or tap Restore for the version that you want to restore.
+> 
+> 1. Open powerapps.com, and then click or tap Apps in the left navigation bar.
+> 2. Near the right edge, click or tap the info icon for the app that you want to restore.
+> 3. Click or tap the Versions tab, and then click or tap Restore for the version that you want to restore.
 > ![img](0000200001.jpg)
-> \4. In the confirmation dialog box, click or tap Restore.
+> 4. In the confirmation dialog box, click or tap Restore.
 > A new version is added to your list.
 > ![img](0000300001.jpg)
 > Reference:
 > https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/restore-an-app
->
-> **Note**
->
-> 
-
-
 
 ### 2
 
+A company uses Dynamics 365 Sales. The company uses a browser-based app named Sales Hub.
+You need to ensure that users can access data from mobile devices. Which app should users install?
+
+- A. Dynamics 365 Remote Assist
+- B. Dynamics 365 Finance
+- C. Dynamics 365 Business Central
+- D. Dynamics 365 for Phones
+
+>**Site Answer:** *D* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/#)
+>Use the Dynamics 365 for phones and Dynamics 365 for tablets apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, youג€™ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.
+>Reference:
+>https://docs.microsoft.com/en-us/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide
+
 ### 3
+
+You are a customer service manager. You need to implement a Power Apps portal that allows customers to submit cases. Which type of data source is used?
+
+- A. Dynamics 365 Connector
+- B. Microsoft SharePoint
+- C. Microsoft Azure Storage
+- D. Common Data Service
+
+> **Discussion**: D
+>
+> Answer D : PowerApps Portals, the ability to build low-code, responsive websites which allow external users to interact with the data stored in the Dataverse. https://powerapps.microsoft.com/en-us/blog/introducing-powerapps-portals-powerful-low-code-websites-for-external-users/
+>
+> -----
+>
+> **Site Answer:** *B* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/#)
+> SharePoint can be set up to setup customer feedback.
+>
+> Note: The PowerApp uses Finance and Operations connector to grab sales order information and SharePoint connector to connect and write the data to SharePoint list. Reference:
+> https://powerapps.microsoft.com/en-us/blog/scenario-2-collect-customer-feedback-in-sharepoint-after-order-delivery/
 
 ### 4
 
+You create a user-owned custom entity by using Common Data Service. For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+![img](0000500001.png)
+
+> **Site Answer:** 
+> 
+> ![img](0000500002.jpg)
+>
+> Box 1: No -
+> Common Data Service supports two types of record ownership. Organization owned, and User or Team owned. This is a choice that happens at the time the entity is created and can't be changed.
+>
+> Box 2: Yes -
+> By combining conditions and actions, you can do any of the following with business rules:
+>
+> Set field values - Clear field values - Set field requirement levels - Show or hide fields - Enable or disable fields - Validate data and show error messages - Create business recommendations based on business intelligence.
+>
+> Reference:
+> https://docs.microsoft.com/en-us/power-platform/admin/wp-security-cds
+
 ### 5
+
+You need to explain the major components of the Common Data Model (CDM) and their functions. Match each term to its definition.
+
+![img](0000600001.jpg)
+
+> **Site Answer:** ![img](0000700001.jpg)
+> >
+> Box 1: Common Data Service / Dataverse
+>
+> By using Dataverse, you can jump-start app development by using the Common Data Model with business logic, security, and integration already built- in.
+>
+> Box 2: Entities -
+> An entity is a set of records used to store data, similar to how a table stores data within a database.
+>
+> Reference:
+> - https://docs.microsoft.com/en-us/common-data-model/use
+> - https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro
 
 ### 6
 
+A distribution company has multiple warehouses. Tax rates charged on sales orders need to be calculated based on locality and region. You need to recommend a cost-effective solution that can be implemented quickly. What should you recommend?
+
+- A. Check AppSource for a tax add-on.
+- B. Create alerts in Dynamics 365 Finance for tax table changes.
+- C. Implement the Common Data Model.
+- D. Run a Power BI report.
+- E. Write scripts and code tax updates.
+
+> **Discussion**
+>
+> "This is actually a question for D365 Finance and Operation. The answer is correct based from the link provided."
+>
+> "I am D365FO developer, so from my side, if tax rate code changed, D365FO is changed already based on setup/configure on tax period and other parameter on sales tax group code and item tax code combination. Alert is enough to give people that tax rate is changed. Why this question is so wierd? If D365 FO didn't fellow tax rate changed in time, this system is crashed and messedup. The web service call as Avalara for tax code is settup. Answer is B. Just flag tax code changed, that is it." 
+>
+> **Correct Answer:** *B* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/2/#)
+> Reference:
+> https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview
+
 ### 7
 
+You manage the support team at a rapidly growing company. Customers and support technicians need a better experience when logging and responding to support requests. You need more visibility into what the support technicians are doing every week. You need to recommend tools to help the company's needs.
+
+![img](0000900001.jpg)
+
+
+
+> **Discussion**
+>
+> 1. Power Apps Portal 
+> 2. Common Data Service 
+> 3. Power Automate 
+> 4. Power BI
+
 ### 8
+
+You are building Power Apps apps that use both Dynamics 365 Sales and Microsoft 365. For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+![img](0001000001.png)
+
+> **Discussion**
+>
+> "I think that Box 1:Yes "For Microsoft 365 subscribers, the Dynamics 365 Customer Engagement apps instance must be in the same tenant as your Microsoft 365 subscription. A user account in Active Directory can only sync with one tenant." https://docs.microsoft.com/en-us/learn/modules/designing-power-platform-deployments/3-planning-the-deployment
+>
+> ![img](0001100001.jpg)
 
 ### 9
 
@@ -130,9 +234,9 @@ You have a Power Apps app. You create a new version of the app and then publish 
 
 Your company wants to create a help desk system and implement Dynamics 365 Customer Service.
 The company has the following requirements:
-✑ Provide an application to allow support team staff to chat live with a customer.
-✑ Automatically import data from a Microsoft Excel spreadsheet once a day.
-✑ Provide a chatbot that can assist customers who need support.
+- Provide an application to allow support team staff to chat live with a customer.
+- Automatically import data from a Microsoft Excel spreadsheet once a day.
+- Provide a chatbot that can assist customers who need support.
 You need to determine which applications to use to meet the requirements.
 Which applications should you use? To answer, select the appropriate options in the answer area.
 NOTE: Each correct selection is worth one point.
@@ -142,7 +246,8 @@ Hot Area:
 
 
 
-> **Correct Answer:** *![img](0005800001.jpg)*
+> **Site Answer:** 
+> ![img](0005800001.jpg)
 > Reference:
 > https://docs.microsoft.com/en-us/power-virtual-agents/fundamentals-what-is-power-virtual-agents
 
