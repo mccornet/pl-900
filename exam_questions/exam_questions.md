@@ -2,6 +2,128 @@
 
 These Questions are taken from examtopics.com
 
+### 1
+
+This question requires that you evaluate the underlined text to determine if it is correct.
+You have a Power Apps app. You create a new version of the app and then publish the new version. A customer goes through the process of restoring the previous version of the app. In the Version tab for the app, you will see two versions of the app. Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- A. No change is needed.
+- B. one
+- C. three
+- D. four
+
+
+
+> **COMMUNITY DISCUSSION**
+>
+> A: Key point is that the customer does the restoration. So the developper would not see another version. If a developper would do the restoration  it should show up as a seperate version. See 17
+>
+> 
+>
+> **Correct Answer:** *C* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/#)
+> Restore a canvas app to a previous version in PowerApps.
+> \1. Open powerapps.com, and then click or tap Apps in the left navigation bar.
+> \2. Near the right edge, click or tap the info icon for the app that you want to restore.
+> \3. Click or tap the Versions tab, and then click or tap Restore for the version that you want to restore.
+> ![img](0000200001.jpg)
+> \4. In the confirmation dialog box, click or tap Restore.
+> A new version is added to your list.
+> ![img](0000300001.jpg)
+> Reference:
+> https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/restore-an-app
+>
+> **Note**
+>
+> 
+
+
+
+### 2
+
+### 3
+
+### 4
+
+### 5
+
+### 6
+
+### 7
+
+### 8
+
+### 9
+
+### 10
+
+### 11
+
+### 12
+
+### 13
+
+### 14
+
+### 15
+
+### 16 
+
+### 17
+
+### 18
+
+### 19
+
+### 20
+
+### 21
+
+### 22
+
+### 23
+
+### 24
+
+### 25
+
+### 26
+
+### 27
+
+### 28
+
+### 29
+
+### 30
+
+### 31
+
+### 32
+
+### 33
+
+### 34 
+
+### 35
+
+### 36
+
+### 37
+
+### 38
+
+### 39
+
+### 40
+
+### 41
+
+### 42
+
+### 43
+
+### 44
+
 
 
 ### 45
@@ -37,15 +159,17 @@ NOTE: Each correct selection is worth one point.
 - C. Take a snapshot of the business rule and change the condition.
 - D. Change the condition and activate the change.
 
-> **Correct Answer:** *AD* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/12/#)
-> Reference:
-> https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-rules
->
-> *Community vote distribution*
+> **DISCUSSION**
 >
 > AB (100%)
 >
 > Effective October 14, 2019, the rules feature in canvas apps is deprecated. More information: [Blog: Canvas Rules feature deprecation](https://powerapps.microsoft.com/blog/canvas-rules-feature-deprecation/).
+>
+> 
+>
+> **Correct Answer:** *AD* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/12/#)
+> Reference:
+> https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-rules
 
 ### 47
 
@@ -192,7 +316,12 @@ You have a Power BI report. For each of the following statements, select Yes if 
 ![img](0006800001-164260350011116.png)
 
 
-
+> **Discussion**
+> Community Disagrees with answer 2
+>
+> ------
+>
+> **Answer**
 > *![img](0006900001.jpg)*
 > Box 1: Yes -
 > If you'd like to see the data that Power BI uses to create a visualization, you can display that data in Power BI. You can also export that data to Excel as an .xlsx or
@@ -205,8 +334,6 @@ You have a Power BI report. For each of the following statements, select Yes if 
 >
 > Box 2: No -
 > Underlying data: Select this option if you want to see the data in the visual and additional data from the model (see chart below for details). If your visualization has an aggregate, selecting Underlying data removes the aggregate. When you select Export, Power BI exports the data to an .xlsx file and your browser prompts you to save the file. Once saved, open the file in Excel.
->
-> NOTE: COMMUNITY SAYS YES
 >
 > Box 3: Yes -
 > A KPI dataset needs to contain goal values for a KPI. If your dataset doesn't contain goal values, you can create them by adding an Excel sheet with goals to your data model or PBIX file.
@@ -228,6 +355,18 @@ NOTE: Each correct selection is worth one point.
 - D. Export the data to Microsoft Excel for coworkers to import and view in Power BI.
 - E. Embed reports in your company's internal web portal.
 
+> **Discussion**
+>
+> My Notes: C and D would always be out of date data
+>
+> Community notes:
+>
+> "B. Publish the dashboard as an app to your coworkers." Workspaces are published as apps, not Dashboards directly. You need to account for what else is in the workspace before determining if you want to publish it, or create a new separate workspace for any application that you will share
+>
+> "B. Publish the dashboard as an app to your coworkers." Since when this capability is added to Power BI? Can we publish dashboard in power bi? The Power BI Desktop application only allows you to build and publish reports. Once you have published this to the Web Service, you can then create dashboards there. An easy way is to simply start pinning visuals from any report page. https://community.powerbi.com/t5/Desktop/How-to-publish-a-dashboard/m-p/170688
+>
+> -----
+>
 > **Correct Answer:** *ABE* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/15/#) **B???**
 > A: Basic Sharing for Dashboards and Reports through a workspace is the most common way of sharing the Power BI content. Basic Sharing is very simple and easy to use method. You can simply click on the Share button in the dashboard or report, and then share it with other users.
 > ![img](0007100001.png)
@@ -239,14 +378,6 @@ NOTE: Each correct selection is worth one point.
 > Publish to web method, gives you an embed code, which you can use in any web pages to embed the Power BI report in it
 > Reference:
 > https://radacad.com/power-bi-sharing-methods-comparison-all-in-one-review
->
-> Community notes:
->
-> "B. Publish the dashboard as an app to your coworkers." Workspaces are published as apps, not Dashboards directly. You need to account for what else is in the workspace before determining if you want to publish it, or create a new separate workspace for any application that you will share
->
-> "B. Publish the dashboard as an app to your coworkers." Since when this capability is added to Power BI? Can we publish dashboard in power bi? The Power BI Desktop application only allows you to build and publish reports. Once you have published this to the Web Service, you can then create dashboards there. An easy way is to simply start pinning visuals from any report page. https://community.powerbi.com/t5/Desktop/How-to-publish-a-dashboard/m-p/170688
->
-> My Notes: C and D would always be out of date data
 
 ### 58 
 
@@ -325,11 +456,15 @@ You need to recommend solutions to meet the company's requirements. What should 
 
 ![img](0007600001.png)
 
-> **Correct Answer:** *![img](0007600002.png)*
+> **Discussion**:
+>
+> Community: Either Page or Direct Query for the last one
+>
+> ----
+>
+> **Site Answer:** *![img](0007600002.png)*
 > Reference:
 > https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboard-tiles https://docs.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-treemaps
->
-> COMMUNITY DISCUSSION, Either Page or Direct Query for the last one
 
 ### 64
 
@@ -402,13 +537,17 @@ What is a benefit of deploying Microsoft 365 and Dynamics 365 apps in the same t
 
 
 
+> **Discussion**
+>
+> Correct answer is D
+>
+> Community: "To use data from different sources, PBI don't need to be on same tenant, because you can use them just with different credentials for each of them. In my opinion D (SSO) then."
+>
+> -----
+>
 > **Correct Answer:** *C* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/17/#)
 > Reference:
 > https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi
->
-> *Community vote distribution*: D
->
-> "To use data from different sources, PBI don't need to be on same tenant, because you can use them just with different credentials for each of them. In my opinion D (SSO) then."
 
 
 
