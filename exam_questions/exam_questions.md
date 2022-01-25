@@ -158,11 +158,67 @@ You are building Power Apps apps that use both Dynamics 365 Sales and Microsoft 
 
 ### 9
 
+You need to implement Microsoft Business Applications along with the Microsoft Power platform.
+Which three Microsoft products are part of the Power platform? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- A. Microsoft Power Apps
+- B. Azure Active Directory
+- C. Power Automate
+- D. Azure Machine Learning
+- E. Microsoft Power BI
+
+> **Site Answer:** *ACE* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/3/#)
+> The Power Platform uses PowerApps, Power BI, and Power Automate (previously named Flow) to customize, extend, and build all the apps you need for your business and unlock the potential of Office 365 and Dynamics 365.
+> Reference:
+> https://docs.microsoft.com/en-us/learn/powerplatform/
+
 ### 10
+
+A company plans to implement Power Platform apps. The company does not plan to use any development tools or plug-ins. Which actions can you perform?
+
+![img](0001300001.png)
+
+>**Site Answer:** 
+>![img](0001300002.png)
+>
+>Refence link for second question from the discussion:
+>
+>- https://docs.microsoft.com/en-us/power-automate/gateway-reference
 
 ### 11
 
+A large retail company implements Power Apps, Microsoft Flow, and the Common Data Service. The board of directors is asking whether users are finding value in the technology. The company would like to measure and report usage of the software. You need to recommend a tool to determine software usage.
+What should you recommend?
+
+- A. Microsoft Intune
+- B. Azure Stream Analytics
+- C. Power Platform Analytics
+- D. Dynamics 365 Product Insights
+
+> **Site Answer:** *C* [🗳️](https://www.examtopics.com/exams/microsoft/pl-900/view/3/#)
+> The Power Platform Analytics Usage report is the default reports seen by the logged in environment admin. It provides total app launches and daily active users across all apps in the environment. Admins can filter the view with attributes like device platform, player version, country, state, and city.
+>
+> Reference:
+> https://docs.microsoft.com/en-us/power-platform/admin/analytics-powerapps
+
 ### 12
+
+A company uses Power Apps. You need to perform administrative tasks for the company.
+Which admin centers should you use? To answer, drag the appropriate admin centers to the correct requirements. Each admin center may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+![img](0001500001.jpg)
+
+> **Discussion**
+>
+> 1) Azure Active Directory Answer is correct, but we can create user account using Microsoft 365 admin center as well, https://docs.microsoft.com/en-us/power-platform/admin/create-users-assign-online-security-roles 
+>
+> 2) Power App Admin Center 
+>
+>    "The security of the environment has been updated and moved to the Power Platform Administration Center."
+>
+> **Site Answer**
+>
+> ![img](0001500002.jpg)
 
 ### 13
 
