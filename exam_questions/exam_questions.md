@@ -222,11 +222,34 @@ Which admin centers should you use? To answer, drag the appropriate admin center
 
 ### 13
 
+A rapidly growing company produces Office 365 licenses for all employees. The company wants to empower users to build apps, automate business processes, and analyze data without requiring I׀¢ expertise or development skills and without increasing IT expenses and dependencies. You need to recommend tools so that users can accomplish specific tasks. Which tools should you recommend? To answer, select the appropriate options in the answer area.
+
+
+![img](0001700001.png)
+
+
+
+
+
 ### 14
+
+A company plans to use Power Platform to build apps which address specific business challenges.
+You need to recommend the appropriate types of Power Apps to use. What should you recommend? To answer, select the appropriate option in the answer area.
+
+
+![img](0001900001.png)
 
 ### 15
 
+A travel company plans to use the Power Platform to create tools that help travel agents book customer travel. You need to recommend solutions for the company. What should you recommend? To answer, drag the appropriate tools to the correct requirements. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+![img](0002100001.png)
+
 ### 16 
+
+A company has locations in multiple regions. The company develops solutions based on Power Apps and Power Automate. You need to recommend features to support the implementation. Which Power Platform features should you recommend? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+![img](0002200001.png)
 
 ### 17
 
