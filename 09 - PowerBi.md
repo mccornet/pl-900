@@ -10,7 +10,9 @@ The business world is increasingly data driven. Small and large businesses alike
 
 ***Microsoft Power BI is a collection of software services, apps, and connectors that work together to*** ***turn your unrelated sources of data into coherent, visually immersive, and interactive insights.*** Power BI lets you easily connect to your data sources, clean, and model your data without affecting the underlying source, visualize (or discover) what's important, and share that with anyone or everyone you want.
 
-<img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/pbi-intro-01.png" alt="Different sources of data can be showcased in one place" width="500px" />
+<p align="center">
+    <img src="https://docs.microsoft.com/en-us/learn/modules/introduction-power-bi/media/pbi-intro-01.png" alt="Different sources of data can be showcased in one place" width="750px" />
+</p>
 
 **Power BI consists of:**
 
@@ -19,6 +21,11 @@ The business world is increasingly data driven. Small and large businesses alike
 - **Mobile Power BI apps** - ***for phones and tablets.***
 
 ***These three elements let people create, share, and consume business insights in the way that serves them, or their role, most effectively.***
+
+<p align="center">
+	<img src="https://github.com/mccornet/pl-900/blob/main/exam_questions/0006400001.jpg" alt="Different sources of data can be showcased in one place" width="750px" />
+</p>
+
 
 ## Power BI concepts
 
